@@ -1,13 +1,18 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
+<<<<<<< HEAD
     "copyright": "Taken and modified from /tg/station113 from https://github.com/tgstation/tgstation/blob/ce6beb8a4d61235d9a597a7126c407160ed674ea/icons/mob/huds/hud.dmi | Brigmedic icon made by PuroSlavKing (Github) | Zombie icon made by RamZ | Zookeper by netwy (discort) | Rev and Head Rev icon taken from https://tgstation13.org/wiki/HUD and edited by coolmankid12345 (Discord) | Admin recolored from MedicalIntern by TsjipTsjip | StationAi resprite to 8x8 size by lunarcomets | Service Worker resprite by anno_midi (Discord) and spanky-spanky (Github) | service icons darkened by frobnic8 (Discord and Github) | paradoxClone taken from tg station at commit https://github.com/tgstation/tgstation/commit/d0db1ff267557017ae7bde68e6490e70cbb6e42f and modifed by slarticodefast (Github) | Boxer, Chaplain, Janitor, Lawyer, Librarian recoloured by K-Dynamic (github) | Cluwne icon by Professor Renderer (Discord) | QuarterMaster modified by K-Dynamic (github) | Mime and Musician recolor by DinnerCalzone (github) at https://github.com/impstation/imp-station-14/commit/233161f02bab7f9f9c03f09f39638ea7c200ee24 | Wizard originally by ScarKy0 (github) at https://github.com/space-wizards/space-station-14/commit/7c6028bc8037306536dca68f3c2cdd5edec56d14, edited by DinnerCalzone (github) | SyndicateCommander/Corpsman/Operative originally by Archeel1 (github) at https://github.com/space-wizards/space-station-14/commit/1a92ada, edited by DinnerCalzone (github)",
+=======
+    "copyright": "Taken from https://github.com/vgstation-coders/vgstation13/blob/e71d6c4fba5a51f99b81c295dcaec4fc2f58fb19/icons/mob/screen1.dmi | Brigmedic icon made by PuroSlavKing (Github) | Zombie icon made by RamZ | Zookeper by netwy (discort) | Rev and Head Rev icon taken from https://tgstation13.org/wiki/HUD and edited by coolmankid12345 (Discord) | Mindshield icon taken from https://github.com/tgstation/tgstation/blob/ce6beb8a4d61235d9a597a7126c407160ed674ea/icons/mob/huds/hud.dmi | Admin recolored from MedicalIntern by TsjipTsjip | StationAi resprite to 8x8 size by lunarcomets | Service Worker resprite by anno_midi (Discord) and spanky-spanky (Github) | service icons darkened by frobnic8 (Discord and Github) | paradoxClone taken from tg station at commit https://github.com/tgstation/tgstation/commit/d0db1ff267557017ae7bde68e6490e70cbb6e42f and modifed by slarticodefast (Github) | Boxer, Chaplain, Janitor, Lawyer, Librarian recoloured by K-Dynamic (github) | Cluwne icon by Professor Renderer (Discord) | Borg and StationAi edit by Eroph for Starlight",
+>>>>>>> de01763037 (Add files via upload)
     "size": {
         "x": 8,
         "y": 8
     },
     "states": [
         {
+<<<<<<< HEAD
             "name": "Admin"
         },
         {
@@ -18,11 +23,21 @@
         },
         {
             "name": "Borg"
+=======
+            "name": "Assistant"
+        },
+        {
+            "name": "Detective"
+        },
+        {
+            "name": "QuarterMaster"
+>>>>>>> de01763037 (Add files via upload)
         },
         {
             "name": "Botanist"
         },
         {
+<<<<<<< HEAD
             "name": "Boxer"
         },
         {
@@ -42,23 +57,82 @@
         },
         {
             "name": "Chef"
+=======
+            "name": "Borg"
+        },
+        {
+            "name": "Boxer"
+        },
+        {
+            "name": "AtmosphericTechnician"
+        },
+        {
+            "name": "Nanotrasen"
+        },
+        {
+            "name": "Prisoner"
+        },
+        {
+            "name": "Janitor"
+>>>>>>> de01763037 (Add files via upload)
         },
         {
             "name": "Chemist"
         },
         {
+<<<<<<< HEAD
             "name": "ChiefEngineer"
+=======
+            "name": "StationEngineer"
+        },
+        {
+            "name": "SecurityOfficer"
+        },
+        {
+            "name": "NoId"
+>>>>>>> de01763037 (Add files via upload)
         },
         {
             "name": "ChiefMedicalOfficer"
         },
         {
+<<<<<<< HEAD
+=======
+            "name": "Roboticist"
+        },
+        {
+            "name": "Chaplain"
+        },
+        {
+            "name": "Lawyer"
+        },
+        {
+            "name": "Unknown"
+        },
+        {
+            "name": "Librarian"
+        },
+        {
+            "name": "CargoTechnician"
+        },
+        {
+            "name": "Scientist"
+        },
+        {
+            "name": "ResearchAssistant"
+        },
+        {
+            "name": "Geneticist"
+        },
+        {
+>>>>>>> de01763037 (Add files via upload)
             "name": "Clown"
         },
         {
             "name": "Cluwne"
         },
         {
+<<<<<<< HEAD
             "name": "Detective"
         },
         {
@@ -105,17 +179,102 @@
         },
         {
             "name": "Librarian"
+=======
+            "name": "Captain"
+        },
+        {
+            "name": "HeadOfPersonnel"
+        },
+        {
+            "name": "Virologist"
+        },
+        {
+            "name": "ShaftMiner"
+        },
+        {
+            "name": "ChiefEngineer"
+        },
+        {
+            "name": "Bartender"
+        },
+        {
+            "name": "HeadOfSecurity"
+        },
+        {
+            "name": "Brigmedic"
+>>>>>>> de01763037 (Add files via upload)
         },
         {
             "name": "MedicalDoctor"
         },
         {
+<<<<<<< HEAD
             "name": "MedicalIntern"
+=======
+            "name": "Paramedic"
+        },
+        {
+            "name": "Chef"
+        },
+        {
+            "name": "Warden"
+        },
+        {
+            "name": "ResearchDirector"
+>>>>>>> de01763037 (Add files via upload)
         },
         {
             "name": "Mime"
         },
         {
+<<<<<<< HEAD
+=======
+            "name": "Musician"
+        },
+        {
+            "name": "Reporter"
+        },
+        {
+            "name": "Psychologist"
+        },
+        {
+            "name": "MedicalIntern"
+        },
+        {
+            "name": "TechnicalAssistant"
+        },
+        {
+            "name": "ServiceWorker"
+        },
+        {
+            "name": "SecurityCadet"
+        },
+        {
+            "name": "Zombie"
+        },
+        {
+            "name": "Zookeeper"
+        },
+        {
+            "name": "SeniorEngineer"
+        },
+        {
+            "name": "SeniorResearcher"
+        },
+        {
+            "name": "SeniorPhysician"
+        },
+        {
+            "name": "SeniorOfficer"
+        },
+        {
+            "name": "Revolutionary"
+        },
+        {
+            "name": "HeadRevolutionary"
+        },
+        {
+>>>>>>> de01763037 (Add files via upload)
             "name": "MindShield",
             "delays": [
                 [
@@ -125,6 +284,7 @@
             ]
         },
         {
+<<<<<<< HEAD
             "name": "Musician"
         },
         {
@@ -234,6 +394,27 @@
         },
         {
             "name": "Zookeeper"
+=======
+            "name": "StationAi"
+        },
+        {
+            "name": "Syndicate"
+        },
+        {
+            "name": "Visitor"
+        },
+        {
+            "name": "InitialInfected"
+        },
+        {
+            "name": "Admin"
+        },
+        {
+            "name": "Changeling"
+        },
+        {
+            "name": "ParadoxClone"
+>>>>>>> de01763037 (Add files via upload)
         }
     ]
 }
