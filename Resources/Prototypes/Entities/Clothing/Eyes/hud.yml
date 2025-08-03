@@ -111,6 +111,7 @@
     tags:
     - PetWearable
     - WhitelistChameleon
+  - type: SafeSolutionThrower # DeltaV - Beergoggles enable safe throw
 
 - type: entity
   parent: ClothingEyesBase
