@@ -10,6 +10,7 @@ using Content.Shared.Chat;
 using Robust.Shared.Player;
 using Robust.Shared.Random;
 // Cosmatic Drift - end synth trait
+using Content.Shared.StationEvents.Events;
 
 namespace Content.Server.StationEvents.Events;
 
@@ -40,6 +41,9 @@ public sealed class IonStormRule : StationEventSystem<IonStormRuleComponent>
             _chatManager.ChatMessageToOne(ChatChannel.Server, msg, wrappedMessage, default, false, actor.PlayerSession.Channel, colorOverride: Color.Yellow);
         }
         // Cosmatic Drift - End of synth trait
+
+        var ev = new IonStormedEvent(GetNetEntity(chosenStation.Value), GetNetEntity(uid));
+        RaiseNetworkEvent(ev);
 
         var query = EntityQueryEnumerator<SiliconLawBoundComponent, TransformComponent, IonStormTargetComponent>();
         while (query.MoveNext(out var ent, out var lawBound, out var xform, out var target))
