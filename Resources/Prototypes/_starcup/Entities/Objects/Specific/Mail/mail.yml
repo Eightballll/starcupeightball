@@ -6,3 +6,14 @@
   - type: Mail
     contents:
     - id: ClothingEyesGlassesMirrorshades
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  parent: BaseMail
+  id: MailSpaceBladeBulk
+  suffix: spaceblade, bulk
+  components:
+  - type: Mail
+    contents:
+    - id: MysterySpaceBladeBox
+    - id: MysterySpaceBladeBox

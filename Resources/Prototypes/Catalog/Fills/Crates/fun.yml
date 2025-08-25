@@ -483,6 +483,55 @@
         prob: 0.05
 
 - type: entity
+  id: CrateFunMysterySpaceBlades
+  parent: CratePlastic
+  name: mystery space blade crate
+  description: A collection of 10 Mystery Space Blade boxes. Duplicates non refundable.
+  components:
+  - type: StorageFill
+    contents:
+      - id: MysterySpaceBladeBox
+        amount: 10
+      - id: MysterySpaceBladeBox
+        amount: 15
+        prob: 0.05
+
+- type: entity
+  id: CrateFunSprayPaints
+  name: spray paint crate
+  description: a crate filled with spray paint.
+  parent: CratePlastic
+  suffix: Spray Paint
+  components:
+  - type: StorageFill
+    contents:
+      - id: SprayPaintBlue
+        amount: 2
+        prob: 0.33
+      - id: SprayPaintRed
+        amount: 2
+        prob: 0.33
+      - id: SprayPaintOrange
+        amount: 2
+        prob: 0.33
+      - id: SprayPaintBlack
+        amount: 2
+        prob: 0.33
+      - id: SprayPaintGreen
+        amount: 2
+        prob: 0.33
+      - id: SprayPaintPurple
+        amount: 2
+        prob: 0.33
+      - id: SprayPaintWhite
+        amount: 2
+        prob: 0.33
+      - id: DeathPaint
+        amount: 2
+      - id: DeathPaintTwo
+        amount: 2
+
+- type: entity
   name: dartboard box set
   description: A box with everything you need for a fun game of darts.
   id: CrateFunDartsSet
