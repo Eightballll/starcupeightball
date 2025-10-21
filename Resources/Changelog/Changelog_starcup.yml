@@ -1626,3 +1626,11 @@
   id: 8252
   time: '2025-10-21T15:56:06.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/530
+- author: Oxdeception
+  changes:
+  - message: MKC players should no longer be constantly alerted that people are touching
+      their maintenance panels when they aren't.
+    type: Fix
+  id: 8253
+  time: '2025-10-21T17:39:33.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/531
