@@ -1662,3 +1662,11 @@
   id: 8257
   time: '2025-10-25T06:45:57.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/537
+- author: little-meow-meow
+  changes:
+  - message: Directional curtains now correctly hint which direction they may be interacted
+      from.
+    type: Fix
+  id: 8258
+  time: '2025-10-27T10:15:07.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/538
