@@ -1699,3 +1699,13 @@
   id: 8261
   time: '2025-10-30T00:41:44.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/548
+- author: Psymbiote
+  changes:
+  - message: Added a chopping axe, not as strong as the fireaxe, for dealing with
+      those pesky trees.
+    type: Add
+  - message: New, shaded versions of the sprites for the fireaxe and fire axe.
+    type: Add
+  id: 8262
+  time: '2025-10-30T00:48:49.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/545
