@@ -1716,3 +1716,14 @@
   id: 8263
   time: '2025-10-30T14:44:04.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/550
+- author: princesspengy
+  changes:
+  - message: candy buckets can be printed at the autolathe!
+    type: Add
+  - message: new candy items can be occasionally found throughout the station, or
+      ordered in bulk by logistics! lollipops, gumballs, gummy bears, hard candies,
+      and more!
+    type: Add
+  id: 8264
+  time: '2025-10-30T22:51:27.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/546
