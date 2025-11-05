@@ -96,7 +96,8 @@
         amount: 0.3
       - !type:PopupMessage
         conditions:
-        - !type:ReagentThreshold
+        - !type:ReagentConditionThreshold
+          reagent: HealthViolation
           min: 30
         type: Local
         visualType: Medium
@@ -209,7 +210,7 @@
         damage:
           types:
             Heat: 2
-      - !type:FlammableReaction
+      - !type:Flammable
         multiplier: 0.5
       - !type:Ignite
       - !type:Emote

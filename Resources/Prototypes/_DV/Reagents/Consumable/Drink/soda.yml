@@ -12,8 +12,8 @@
       - !type:SatiateThirst
         factor: 2.0
         conditions:
-        - !type:OrganType
-          type: Human
+        - !type:MetabolizerTypeCondition
+          type: [ Human ]
           shouldHave: false
     Food:
       effects:
