@@ -1770,3 +1770,14 @@
   id: 8269
   time: '2025-11-07T00:35:19.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/561
+- author: princesspengy
+  changes:
+  - message: access configurators now have mail access listed
+    type: Fix
+  - message: certain glass airlocks have had their sprites corrected
+    type: Fix
+  - message: added missing mail door electronics
+    type: Fix
+  id: 8270
+  time: '2025-11-08T01:14:00.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/565
