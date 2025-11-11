@@ -47,10 +47,13 @@
   parent: BasePlushieLizardJob
   id: PlushieLizardJobCaptain
   name: captain lizard plushie
-  description: An adorable stuffed toy that resembles an unathi as the captain. There's bits of pie on its face. # starcup: rename lizardpeople to unathi
+  description: An adorable stuffed toy that resembles an unathi as the captain. It has a very small replica nuke disk hidden under its hat. # starcup: rename lizardpeople to unathi, rewritten for tone
   components:
   - type: Sprite
-    state: captain
+    # begin starcup: syndicate resprites
+    sprite: _starcup/Objects/Fun/plushielizard_jobs.rsi
+    state: captain-syndi
+    # end starcup
 
 - type: entity
   parent: BasePlushieLizardJob
@@ -140,7 +143,10 @@
   description: An adorable stuffed toy that resembles an unathi as the head of personnel. It has a tiny little pen tucked into its breast pocket. # starcup: rename lizardpeople to unathi, rewritten for tone
   components:
   - type: Sprite
-    state: headofpersonnel
+    # begin starcup: syndicate resprites
+    sprite: _starcup/Objects/Fun/plushielizard_jobs.rsi
+    state: headofpersonnel-syndi
+    # end starcup
 
 - type: entity
   parent: BasePlushieLizardJob
