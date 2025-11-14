@@ -45,3 +45,14 @@
     - id: DrinkVodkaBottleFull
     - id: DrinkWhiskeyBottleFull
     - id: DrinkWineBottleFull
+    - id: DrinkJaegermisterBottleFull # Den - Jaegerminsteeeer
+  - type: Transform
+    noRot: false
+  - type: Machine
+    board: BoozeDispenserMachineCircuitboard
+  - type: GuideHelp
+    guides:
+    - Bartender
+    - Drinks # DeltaV - doesn't exist
+  - type: StealTarget
+    stealGroup: BoozeDispenser
