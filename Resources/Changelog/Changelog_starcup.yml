@@ -1950,3 +1950,12 @@
   id: 8289
   time: '2025-11-26T03:56:14.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/588
+- author: Oxdeception
+  changes:
+  - message: Painkillers now function correctly again. Please remember to thank your
+      local Interdyne representative for access to the non-placebo versions of their
+      medications.
+    type: Fix
+  id: 8290
+  time: '2025-11-26T04:09:58.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/596
