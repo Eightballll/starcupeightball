@@ -1975,3 +1975,10 @@
   id: 8292
   time: '2025-11-29T06:14:26.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/599
+- author: foxcurl
+  changes:
+  - message: Train's security now has a shiny and improved genpop brig.
+    type: Tweak
+  id: 8293
+  time: '2025-11-29T06:53:32.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/601
