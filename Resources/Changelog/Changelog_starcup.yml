@@ -2004,3 +2004,10 @@
   id: 8296
   time: '2025-12-01T09:10:17.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/607
+- author: little-meow-meow
+  changes:
+  - message: Snow storms have come to Glacier station.
+    type: Add
+  id: 8297
+  time: '2025-12-01T19:31:32.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/608
