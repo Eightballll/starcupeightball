@@ -2075,3 +2075,11 @@
   id: 8302
   time: '2025-12-03T20:28:07.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/616
+- author: princesspengy
+  changes:
+  - message: the popup dialogue for respawning no longer refers to a rule starcup
+      does not have
+    type: Fix
+  id: 8303
+  time: '2025-12-05T00:48:05.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/611
