@@ -2106,3 +2106,19 @@
   id: 8306
   time: '2025-12-05T22:53:24.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/620
+- author: princesspengy
+  changes:
+  - message: 'huge loadout update!! new options are now available for characters across
+      almost every job, as well as new trinkets! please note: some of your characters
+      may have had their loadouts changed as a result, so be sure to check on them!'
+    type: Add
+  - message: gave the roboticist access to the engineering goggles, and made an exception
+      for them in the item's contraband label
+    type: Add
+  - message: the loadout menu has had its contents rearranged, some for organizational
+      reasons and others as a result of new parenting systems to keep things tidier
+      within the codebase
+    type: Tweak
+  id: 8307
+  time: '2025-12-06T02:41:58.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/604
