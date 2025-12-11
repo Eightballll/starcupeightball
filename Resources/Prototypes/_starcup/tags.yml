@@ -12,3 +12,9 @@
 
 - type: Tag
   id: WeaponShotgun
+
+- type: Tag
+  id: TrashPile
+
+- type: Tag
+  id: Beehive
