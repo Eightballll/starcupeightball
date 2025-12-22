@@ -2237,3 +2237,15 @@
   id: 8319
   time: '2025-12-22T20:34:25.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/639
+- author: Psymbiote
+  changes:
+  - message: Made it so space carp and sharkminnows will defend themselves against
+      other mobs that killed them with impunity when spawning near them.
+    type: Fix
+  - message: Added variant carp and sharkminnows, as well as the speargun and upgraded
+      harpoons, to several salvage spawners they were intended to be in but missing
+      from.
+    type: Fix
+  id: 8320
+  time: '2025-12-22T20:52:01.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/632
