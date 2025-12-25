@@ -2257,3 +2257,12 @@
   id: 8321
   time: '2025-12-23T23:36:48.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/641
+- author: princesspengy
+  changes:
+  - message: added a variety of fluffy sweaters for the festive season! generic sweaters
+      (and one secret sweater) can be found in the winterdrobe, and each department
+      has their own sweater available through their vendors/dressers
+    type: Add
+  id: 8322
+  time: '2025-12-25T00:41:54.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/643
