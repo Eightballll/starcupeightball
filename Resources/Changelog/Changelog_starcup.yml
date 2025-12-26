@@ -2266,3 +2266,15 @@
   id: 8322
   time: '2025-12-25T00:41:54.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/643
+- author: princesspengy
+  changes:
+  - message: the icons for the new sweaters have been adjusted to be more properly
+      centered
+    type: Fix
+  - message: clown/mime sweaters can now be found in the theaterdrobe
+    type: Add
+  - message: departmental sweaters are now available in roundstart loadouts!
+    type: Add
+  id: 8323
+  time: '2025-12-26T18:24:25.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/644
