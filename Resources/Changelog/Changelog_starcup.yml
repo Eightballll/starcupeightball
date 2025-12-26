@@ -2278,3 +2278,11 @@
   id: 8323
   time: '2025-12-26T18:24:25.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/644
+- author: Oxdeception
+  changes:
+  - message: Cats can now sleep wherever they want, assuming they want to, which they
+      don't want yet unless they're being mind controlled or something.
+    type: Add
+  id: 8324
+  time: '2025-12-26T18:30:52.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/642
