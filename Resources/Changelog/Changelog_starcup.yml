@@ -2294,3 +2294,13 @@
   id: 8325
   time: '2025-12-29T09:57:49.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/635
+- author: KoboldCatgirl
+  changes:
+  - message: Depression/Pain traits no longer spawn you with meds.
+    type: Remove
+  - message: Added loadout meds for depression, anxiety, narcolepsy, and basic/severe
+      chronic pain!
+    type: Add
+  id: 8326
+  time: '2025-12-29T10:04:47.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/633
