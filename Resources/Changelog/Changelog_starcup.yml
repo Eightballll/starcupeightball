@@ -2286,3 +2286,11 @@
   id: 8324
   time: '2025-12-26T18:30:52.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/642
+- author: KoboldCatgirl
+  changes:
+  - message: Turned off SyndComm Station's radio and set the booth to Captain-only,
+      along with other tweaks!
+    type: Tweak
+  id: 8325
+  time: '2025-12-29T09:57:49.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/635
