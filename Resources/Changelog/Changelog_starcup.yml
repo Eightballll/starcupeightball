@@ -2336,3 +2336,11 @@
   id: 8329
   time: '2025-12-30T08:12:55.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/652
+- author: princesspengy
+  changes:
+  - message: players will no longer disintegrate into ash upon taking excessive heat
+      damage
+    type: Remove
+  id: 8330
+  time: '2025-12-30T08:40:29.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/653
