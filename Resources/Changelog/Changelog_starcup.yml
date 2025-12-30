@@ -2344,3 +2344,21 @@
   id: 8330
   time: '2025-12-30T08:40:29.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/653
+- author: princesspengy
+  changes:
+  - message: most of crux's lathes and generators will now start each shift with materials
+      already loaded; expect this feature on other maps soon!
+    type: Add
+  - message: removed the electrified grill area in crux's maintenance and replaced
+      it with something less dangerous
+    type: Remove
+  - message: the rd's office on crux now has the hardsuit and ai restoration console
+      it should have had
+    type: Fix
+  - message: recolored crux's atmos pipes
+    type: Tweak
+  - message: extended crux's docking airlocks to be a little less cramped
+    type: Tweak
+  id: 8331
+  time: '2025-12-30T09:13:39.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/649
