@@ -2376,3 +2376,29 @@
   id: 8332
   time: '2025-12-31T06:33:14.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/648
+- author: KoboldCatgirl
+  changes:
+  - message: Updated robotics control console's description and access limits.
+    type: Fix
+  id: 8333
+  time: '2026-01-02T23:43:33.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/658
+- author: KoboldCatgirl
+  changes:
+  - message: Fixed Saltern's emergency lights!
+    type: Fix
+  - message: Removed Saltern's CE/QM/RD id consoles
+    type: Remove
+  - message: Gave Saltern a dining area APC, a cutting machine, and an AI Restoration
+      Console, plus other stuff.
+    type: Tweak
+  id: 8334
+  time: '2026-01-02T23:44:27.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/655
+- author: KoboldCatgirl
+  changes:
+  - message: Restored Command access to SyndComm booth + other bugfixes
+    type: Tweak
+  id: 8335
+  time: '2026-01-02T23:43:33.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/657
