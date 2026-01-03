@@ -2402,3 +2402,11 @@
   id: 8335
   time: '2026-01-02T23:43:33.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/657
+- author: Nesoryo, Nikovnik, kotobdev
+  changes:
+  - message: Added alternative typing indicators for whispering, emoting, using the
+      radio, and (L)OOC-ing!
+    type: Add
+  id: 8336
+  time: '2026-01-03T05:31:20.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/650
