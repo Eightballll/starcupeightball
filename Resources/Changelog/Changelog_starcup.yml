@@ -2426,3 +2426,11 @@
   id: 8338
   time: '2026-01-04T06:42:56.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/661
+- author: Oxdeception
+  changes:
+  - message: Department notice boards should no longer be filled with blank papers.
+      Remember to check them if you see a notice!
+    type: Tweak
+  id: 8339
+  time: '2026-01-04T06:49:50.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/660
