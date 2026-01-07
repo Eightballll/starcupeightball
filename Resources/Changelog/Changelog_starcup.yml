@@ -2458,3 +2458,11 @@
   id: 8342
   time: '2026-01-06T03:57:57.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/662
+- author: princesspengy
+  changes:
+  - message: crux's main smes array has been swapped to basic units to better match
+      the roundstart power supply of other stations
+    type: Tweak
+  id: 8343
+  time: '2026-01-07T05:56:19.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/666
