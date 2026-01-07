@@ -2466,3 +2466,19 @@
   id: 8343
   time: '2026-01-07T05:56:19.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/666
+- author: princesspengy
+  changes:
+  - message: smes batteries have had their storage greatly increased, increasing the
+      length of time a station can stay powered at roundstart
+    type: Tweak
+  id: 8344
+  time: '2026-01-07T06:04:18.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/665
+- author: princesspengy
+  changes:
+  - message: loop's main smes array has been swapped to basic units to better match
+      the roundstart power supply of other stations
+    type: Tweak
+  id: 8345
+  time: '2026-01-07T06:04:18.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/667
