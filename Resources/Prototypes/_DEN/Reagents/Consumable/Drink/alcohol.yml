@@ -273,7 +273,6 @@
       - !type:ModifyKnockdown
         time: 0.01
         type: Add
-        refresh: false
   fizziness: 0.25
 
 - type: reagent
