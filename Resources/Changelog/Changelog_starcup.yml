@@ -2482,3 +2482,10 @@
   id: 8345
   time: '2026-01-07T06:04:18.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/667
+- author: foxcurl
+  changes:
+  - message: Glow in the dark stars and variants are actually craftable now.
+    type: Fix
+  id: 8346
+  time: '2026-01-07T06:11:25.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/668
