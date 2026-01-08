@@ -2521,3 +2521,25 @@
   id: 8348
   time: '2026-01-08T20:16:38.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/612
+- author: little-meow-meow
+  changes:
+  - message: chaplains can now sanctify any item at roundstart to grant it the healing
+      powers and other properties previously limited to bibles! for more details,
+      read the chaplain's new guidebook entry
+    type: Add
+  - message: bibles no longer have inherent special properties in light of this new
+      system
+    type: Remove
+  - message: the chaplain's healing no longer has a chance to fail and damage the
+      target instead
+    type: Tweak
+  - message: the sound effect for the chaplain's healing has been changed
+    type: Tweak
+  - message: the necronomicon has been removed from the traitor uplink, pending possible
+      reworks
+    type: Remove
+  - message: bibles have been removed from the chaplain's roundstart loadout
+    type: Remove
+  id: 8349
+  time: '2026-01-08T23:16:08.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/645
