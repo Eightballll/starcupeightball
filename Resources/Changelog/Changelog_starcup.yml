@@ -2497,3 +2497,27 @@
   id: 8347
   time: '2026-01-07T06:23:42.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/669
+- author: princesspengy
+  changes:
+  - message: mail drop tables have been reworked, resulting in a much wider array
+      of possible results!
+    type: Add
+  - message: mail now uses fingerprint scans instead of ID scans. note that you don't
+      need to take your gloves off!
+    type: Tweak
+  - message: replaced mail-related sprites with upstream's
+    type: Tweak
+  - message: the mail metrics cartridge has been, for now, removed as a necessity
+      of the mail rework. long live the success rate...!
+    type: Remove
+  - message: you can now forcibly cut open mail using any cutting tool
+    type: Add
+  - message: mail now spawns inside of the mail teleporter, and must be retrieved
+      via right-click verb
+    type: Tweak
+  - message: the reward for delivering mail has been adjusted, and now varies slightly
+      between deliveries
+    type: Tweak
+  id: 8348
+  time: '2026-01-08T20:16:38.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/612
