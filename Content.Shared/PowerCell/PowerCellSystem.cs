@@ -115,8 +115,8 @@ public sealed partial class PowerCellSystem : EntitySystem
 
     private void OnCellSlotExamined(Entity<PowerCellSlotComponent> ent, ref ExaminedEvent args)
     {
-        if (TryGetBatteryFromSlot(ent.AsNullable(), out var batteryEnt, out var battery)) // Goobstation
-            OnBatteryExamined(batteryEnt.GetValueOrDefault(uid), battery, ref args); // Goobstation
+        if (TryGetBatteryFromSlot(ent.AsNullable(), out var battery))
+            OnBatteryExamined(battery.Value, ref args);
         else
             args.PushMarkup(Loc.GetString("power-cell-component-examine-details-no-battery"));
     }
