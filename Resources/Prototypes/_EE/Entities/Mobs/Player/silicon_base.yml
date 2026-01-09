@@ -158,10 +158,11 @@
       bounds: -0.5,-0.5,0.5,0.5
     - type: Bloodstream # begin DeltaV - uncommented
       damageBleedModifiers: BloodlossIPC
-      bloodReagent: Oil
+      bloodReferenceSolution:
+        reagents:
+        - ReagentId: Oil
+        - Quantity: 100
       bleedReductionAmount: 0
-      bloodMaxVolume: 100
-      chemicalMaxVolume: 0
       bleedPuddleThreshold: 3
       bloodRefreshAmount: 0
       bloodlossThreshold: 0.8
