@@ -565,6 +565,16 @@ public sealed partial class InjectorSystem : EntitySystem
             temporarilyRemovedSolution = applicableTargetSolution.SplitSolutionWithout(applicableTargetSolution.Volume, reagentWhitelist.ToArray());
         }
 
+        // Begin DeltaV Additions - skimmer functionality
+        else if (injector.Comp.TargetSmallest)
+        {
+            if (applicableTargetSolution.Count() > 0 && applicableTargetSolution.MinBy(soln => soln.Quantity) is {} smallest)
+            {
+                temporarilyRemovedSolution = applicableTargetSolution.SplitSolutionWithout(applicableTargetSolution.Volume, new string[] { smallest.Reagent.Prototype });
+            }
+        }
+        // End DeltaV Additions - skimmer functionality
+
         // If transferAmount is null, fallback to 5 units.
         var plannedTransferAmount = injector.Comp.CurrentTransferAmount ?? FixedPoint2.New(5);
         // Get transfer amount. It may be smaller than _transferAmount if not enough room, also make sure there's room in the injector

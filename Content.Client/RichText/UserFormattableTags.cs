@@ -1,4 +1,5 @@
-﻿using Content.Client.UserInterface.RichText;
+﻿using Content.Client._starcup.UserInterface.RichText;
+using Content.Client.UserInterface.RichText;
 using Robust.Client.UserInterface.RichText;
 
 namespace Content.Client.RichText;
@@ -21,5 +22,8 @@ public static class UserFormattableTags
         typeof(HeadingTag),
         typeof(ItalicTag),
         typeof(MonoTag),
+        typeof(SizeTag), // starcup
+        typeof(FontTag), // starcup
+        typeof(EmojiTag), // starcup
     ];
 }
