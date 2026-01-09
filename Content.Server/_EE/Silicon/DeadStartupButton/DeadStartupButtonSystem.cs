@@ -67,7 +67,7 @@ public sealed class DeadStartupButtonSystem : SharedDeadStartupButtonSystem
             || !_siliconChargeSystem.TryGetSiliconBattery(uid, out var bateria))
             return;
 
-        var currentCharge = _battery.GetCharge((uid, bateria));
+        var currentCharge = _battery.GetCharge(bateria.Value.AsNullable());
 
         if (currentCharge <= 0)
             return;

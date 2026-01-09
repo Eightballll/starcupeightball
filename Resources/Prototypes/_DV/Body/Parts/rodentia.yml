@@ -36,22 +36,24 @@
 - type: entity
   id: HeadRodentia
   name: "rodentia head"
-  parent: PartRodentia
+  parent: [PartRodentia, BaseHead] # starcup: added parent
   components:
   - type: Sprite
     state: "head_m"
-  - type: Icon
-    state: "head_m"
-  - type: BodyPart
-    partType: Head
-    vital: true
-  - type: Input
-    context: "ghost"
-  - type: InputMover
-  - type: GhostOnMove
-  - type: Tag
-    tags:
-      - Head
+  # begin starcup: inherited from parent
+#  - type: Icon
+#    state: "head_m"
+#  - type: BodyPart
+#    partType: Head
+#    vital: true
+#  - type: Input
+#    context: "ghost"
+#  - type: InputMover
+#  - type: GhostOnMove
+#  - type: Tag
+#    tags:
+#      - Head
+  # end starcup
 
 - type: entity
   id: LeftArmRodentia
