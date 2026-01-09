@@ -2550,3 +2550,14 @@
   id: 8350
   time: '2026-01-09T03:07:22.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/672
+- author: Oxdeception
+  changes:
+  - message: Added the 'spawncharacter' command to easily spawn your SyndComm or other
+      characters with their components and outfits already set up.
+    type: Add
+  - message: Added the 'spawnplayer' command. This is similar to spawncharacter spawn
+      but for another player's current character.
+    type: Add
+  id: 8351
+  time: '2026-01-09T05:50:30.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/673
