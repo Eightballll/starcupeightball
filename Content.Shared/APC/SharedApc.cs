@@ -205,7 +205,7 @@ namespace Content.Shared.APC
                    ApcExternalPower == other.ApcExternalPower &&
                    MathHelper.CloseTo(Charge, other.Charge) &&
                    MathHelper.CloseTo(MaxLoad, other.MaxLoad) &&
-                   Tripped == other.Tripped;
+                   Tripped == other.Tripped &&
                    PowerEnabled == other.PowerEnabled; // DeltaV
         }
 

@@ -8,7 +8,7 @@ using Robust.Shared.Utility;
 using Content.Server._EE.Silicon.Charge;
 using Content.Server.Power.EntitySystems;
 using Content.Server.Popups;
-using Content.Server.PowerCell;
+using Content.Shared.PowerCell;
 using Content.Shared.Popups;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Containers;
@@ -95,6 +95,7 @@ public sealed class BatteryDrinkerSystem : EntitySystem
         var source = args.Target.Value;
         var drinker = uid;
         var sourceBattery = Comp<BatteryComponent>(source);
+        var sourceCharge = _battery.GetCharge((uid, sourceBattery));
 
         _silicon.TryGetSiliconBattery(drinker, out var drinkerBatteryComponent);
 
@@ -103,6 +104,7 @@ public sealed class BatteryDrinkerSystem : EntitySystem
 
         var container = _container.GetContainer(uid, batterySlot.CellSlotId);
         var drinkerBattery = container.ContainedEntities.First();
+        var drinkerCharge = _battery.GetCharge(drinkerBattery);
 
         TryComp<BatteryDrinkerSourceComponent>(source, out var sourceComp);
 
@@ -113,8 +115,8 @@ public sealed class BatteryDrinkerSystem : EntitySystem
 
         var amountToDrink = drinkerComp.DrinkMultiplier * 1000;
 
-        amountToDrink = MathF.Min(amountToDrink, sourceBattery.CurrentCharge);
-        amountToDrink = MathF.Min(amountToDrink, drinkerBatteryComponent!.MaxCharge - drinkerBatteryComponent.CurrentCharge);
+        amountToDrink = MathF.Min(amountToDrink, sourceCharge);
+        amountToDrink = MathF.Min(amountToDrink, drinkerBatteryComponent!.MaxCharge - drinkerCharge);
 
         if (sourceComp != null && sourceComp.MaxAmount > 0)
             amountToDrink = MathF.Min(amountToDrink, (float) sourceComp.MaxAmount);
@@ -126,10 +128,10 @@ public sealed class BatteryDrinkerSystem : EntitySystem
         }
 
         if (_battery.TryUseCharge(source, amountToDrink))
-            _battery.SetCharge(drinkerBattery, drinkerBatteryComponent.CurrentCharge + amountToDrink, drinkerBatteryComponent);
+            _battery.SetCharge(drinkerBattery, drinkerCharge + amountToDrink);
         else
         {
-            _battery.SetCharge(drinkerBattery, sourceBattery.CurrentCharge + drinkerBatteryComponent.CurrentCharge, drinkerBatteryComponent);
+            _battery.SetCharge(drinkerBattery, sourceCharge + drinkerCharge);
             _battery.SetCharge(source, 0);
         }
 

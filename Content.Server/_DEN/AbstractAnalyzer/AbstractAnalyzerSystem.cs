@@ -1,6 +1,6 @@
 using System.Diagnostics.CodeAnalysis;
 using Content.Server._DEN.AbstractAnalyzer;
-using Content.Server.PowerCell;
+using Content.Shared.PowerCell;
 using Content.Shared.DoAfter;
 using Content.Shared.Interaction;
 using Content.Shared.Interaction.Events;
