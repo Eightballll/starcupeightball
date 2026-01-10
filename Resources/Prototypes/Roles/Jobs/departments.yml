@@ -32,6 +32,7 @@
   - Reporter
   - Visitor
   - ServiceWorker
+  - Boxer # starcup
 
 - type: department
   id: CentralCommand

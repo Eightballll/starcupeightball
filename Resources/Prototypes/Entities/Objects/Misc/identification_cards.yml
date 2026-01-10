@@ -826,6 +826,10 @@
     - sprite: *icon-rsi
       offset: *icon-offset
       state: Boxer
+    # begin starcup: keep boxer job
+    - type: PresetIdCard
+      job: Boxer
+    # end starcup
 
 - type: entity
   parent: IDCardStandard
