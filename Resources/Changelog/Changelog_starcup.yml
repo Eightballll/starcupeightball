@@ -2589,3 +2589,10 @@
   id: 8354
   time: '2026-01-13T07:36:10.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/679
+- author: foxcurl
+  changes:
+  - message: Detailed examines are now visible from any range.
+    type: Tweak
+  id: 8355
+  time: '2026-01-13T07:43:10.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/680
