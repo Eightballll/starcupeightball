@@ -148,7 +148,7 @@
   parent: OrganBase
   id: OrganMoth
   abstract: true
-  suffix: Moth
+  suffix: Doptera # starcup
 
 - type: entity
   id: OrganMothMetabolizer

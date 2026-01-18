@@ -32,6 +32,9 @@
         - id: OrganArachnidKidneys
   - type: HumanoidAppearance
     species: Arachnid
+  - type: FootPrints # DeltaV port from EE, blood splatter
+    leftBarePrint: "footprint-left-bare-spider"
+    rightBarePrint: "footprint-right-bare-spider"
 
 - type: entity
   parent:

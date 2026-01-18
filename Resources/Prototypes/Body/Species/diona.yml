@@ -31,6 +31,9 @@
         - id: OrganDionaStomachNymphing
   - type: HumanoidAppearance
     species: Diona
+  - type: FootPrints # DeltaV port from EE, blood splatter
+    leftBarePrint: "footprint-left-bare-diona"
+    rightBarePrint: "footprint-right-bare-diona"
 
 - type: entity
   parent:
@@ -59,11 +62,13 @@
         color: "#cd7314"
       Burn:
         sprite: Mobs/Effects/burn_damage.rsi
-  - type: Butcherable
-    butcheringType: Spike
-    spawned:
-      - id: FoodMeatPlant
-        amount: 5
+# begin starcup: people are not food
+#  - type: Butcherable
+#    butcheringType: Spike
+#    spawned:
+#      - id: FoodMeatPlant
+#        amount: 5
+# end starcup
   - type: Bloodstream
     bloodReferenceSolution:
       reagents:

@@ -5,9 +5,11 @@
   - type: Sprite
     layers:
     # Torso
+    - map: [ "enum.HumanoidVisualLayers.TailBehind" ] # floof
     - map: [ "enum.HumanoidVisualLayers.Chest" ]
 
     # Head
+    - map: [ "enum.HumanoidVisualLayers.HeadBase" ] # starcup: base head shapes
     - map: [ "enum.HumanoidVisualLayers.Head" ]
     - map: [ "enum.HumanoidVisualLayers.Snout" ]
     - map: [ "enum.HumanoidVisualLayers.Eyes" ]
@@ -33,6 +35,7 @@
     - map: [ "gloves" ]
     - map: [ "shoes" ]
     - map: [ "ears" ]
+    - map: [ "enum.HumanoidVisualLayers.TailOversuit" ] # floof
     - map: [ "eyes" ]
     - map: [ "belt" ]
     - map: [ "id" ]

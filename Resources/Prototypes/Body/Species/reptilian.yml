@@ -64,6 +64,9 @@
     - HeadSide
     - Tail
     undergarmentBottom: UndergarmentBottomBoxersReptilian
+  - type: FootPrints # DeltaV port from EE, blood splatter
+    leftBarePrint: "footprint-left-bare-lizard"
+    rightBarePrint: "footprint-right-bare-lizard"
 
 - type: entity
   parent:
@@ -74,16 +77,18 @@
   components:
   - type: Puller
     needsHands: false
-  - type: Butcherable
-    butcheringType: Spike
-    spawned:
-    - id: FoodMeatLizard
-      amount: 5
+# begin starcup: people are not food
+#  - type: Butcherable
+#    butcheringType: Spike
+#    spawned:
+#    - id: FoodMeatLizard
+#      amount: 5
+# end starcup
   - type: LizardAccent
   - type: Speech
     speechSounds: Lizard
     speechVerb: Reptilian
-    allowedEmotes: ['Thump']
+    allowedEmotes: ['Thump', 'LizardHiss'] # imp: added hiss # starcup: Hiss -> LizardHiss
   - type: TypingIndicator
     proto: lizard
   - type: Vocal
@@ -126,7 +131,7 @@
   parent: OrganBase
   id: OrganReptilian
   abstract: true
-  suffix: Reptilian
+  suffix: unathi # starcup
 
 - type: entity
   id: OrganReptilianMetabolizer

@@ -29,8 +29,10 @@
         - id: OrganVulpkaninKidneys
   - type: HumanoidAppearance
     species: Vulpkanin
-    undergarmentTop: UndergarmentTopTanktopVulpkanin
-    undergarmentBottom: UndergarmentBottomBoxersVulpkanin
+    # begin starcup: use delta-v sprites
+    # undergarmentTop: UndergarmentTopTanktopVulpkanin
+    # undergarmentBottom: UndergarmentBottomBoxersVulpkanin
+    # end starcup
     hideLayersOnEquip:
     - Snout
     - SnoutCover
@@ -38,60 +40,63 @@
     - HeadSide
     - FacialHair
     - Hair
-    markingsDisplacement:
-      Hair:
-        sizeMaps:
-          32:
-            sprite: Mobs/Species/Vulpkanin/displacement.rsi
-            state: hair
+    # begin starcup: use delta-v sprites
+    # markingsDisplacement:
+    #   Hair:
+    #     sizeMaps:
+    #       32:
+    #         sprite: Mobs/Species/Vulpkanin/displacement.rsi
+    #         state: hair
   - type: Inventory
     speciesId: vulpkanin
     displacements:
-      jumpsuit:
-        sizeMaps:
-          32:
-            sprite: Mobs/Species/Vulpkanin/displacement.rsi
-            state: jumpsuit
-      back:
-        sizeMaps:
-          32:
-            sprite: Mobs/Species/Vulpkanin/displacement.rsi
-            state: back
-      outerClothing:
-        sizeMaps:
-          32:
-            sprite: Mobs/Species/Vulpkanin/displacement.rsi
-            state: outerwear
-      gloves:
-        sizeMaps:
-          32:
-            sprite: Mobs/Species/Vulpkanin/displacement.rsi
-            state: hand
-      shoes:
-        sizeMaps:
-          32:
-            sprite: Mobs/Species/Vulpkanin/displacement.rsi
-            state: shoes
+    # begin starcup: use delta-v sprites
+    #   jumpsuit:
+    #     sizeMaps:
+    #       32:
+    #         sprite: Mobs/Species/Vulpkanin/displacement.rsi
+    #         state: jumpsuit
+    #   back:
+    #     sizeMaps:
+    #       32:
+    #         sprite: Mobs/Species/Vulpkanin/displacement.rsi
+    #         state: back
+    #   outerClothing:
+    #     sizeMaps:
+    #       32:
+    #         sprite: Mobs/Species/Vulpkanin/displacement.rsi
+    #         state: outerwear
+    #   gloves:
+    #     sizeMaps:
+    #       32:
+    #         sprite: Mobs/Species/Vulpkanin/displacement.rsi
+    #         state: hand
+    #   shoes:
+    #     sizeMaps:
+    #       32:
+    #         sprite: Mobs/Species/Vulpkanin/displacement.rsi
+    #         state: shoes
       head:
         sizeMaps:
           32:
             sprite: Mobs/Species/Vulpkanin/displacement.rsi
             state: head
-      neck:
-        sizeMaps:
-          32:
-            sprite: Mobs/Species/Vulpkanin/displacement.rsi
-            state: neck
-      eyes:
-        sizeMaps:
-          32:
-            sprite: Mobs/Species/Vulpkanin/displacement.rsi
-            state: eyes
-      belt:
-        sizeMaps:
-          32:
-            sprite: Mobs/Species/Vulpkanin/displacement.rsi
-            state: belt
+    #   neck:
+    #     sizeMaps:
+    #       32:
+    #        sprite: Mobs/Species/Vulpkanin/displacement.rsi
+    #         state: neck
+    #   eyes:
+    #     sizeMaps:
+    #       32:
+    #         sprite: Mobs/Species/Vulpkanin/displacement.rsi
+    #         state: eyes
+    #   belt:
+    #     sizeMaps:
+    #       32:
+    #         sprite: Mobs/Species/Vulpkanin/displacement.rsi
+    #         state: belt
+    # end starcup
 
 - type: entity
   parent:
@@ -100,8 +105,8 @@
   id: MobVulpkanin
   name: Urist McArfArf
   components:
-  - type: MessyDrinker
-    spillChance: 0.33
+#  - type: MessyDrinker # starcup
+#    spillChance: 0.33
   - type: Speech
     speechSounds: Vulpkanin
     speechVerb: Vulpkanin
@@ -152,7 +157,7 @@
   parent: OrganBase
   id: OrganVulpkanin
   abstract: true
-  suffix: vulpkanin
+  suffix: vulpekin # starcup
 
 - type: entity
   id: OrganVulpkaninMetabolizer
@@ -175,7 +180,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi # starcup: use delta-v sprites
 
 - type: entity
   parent: [ OrganBaseTorso, OrganVulpkaninExternal ]

@@ -28,6 +28,9 @@
         - id: OrganSlimePersonLungs
   - type: HumanoidAppearance
     species: SlimePerson
+  - type: FootPrints # DeltaV port from EE, blood splatter
+    leftBarePrint: "footprint-left-bare-slime"
+    rightBarePrint: "footprint-right-bare-slime"
 
 - type: entity
   parent:
@@ -60,7 +63,7 @@
   - type: Speech
     speechVerb: Slime
     speechSounds: Slime
-    allowedEmotes: ['Squish']
+    allowedEmotes: ['Squish', 'Bubble', 'Pop', 'SlimeFizz'] # imp: added bubble, pop # starcup: added SlimeFizz
   - type: TypingIndicator
     proto: slime
   - type: Vocal
@@ -111,17 +114,19 @@
       - !type:HealthChange
         damage:
           types:
-            Heat: 0.05
+            Caustic: 0.05 # starcup: changed damage type from heat
       - !type:PopupMessage
         type: Local
         visualType: Large
         messages: [ "slime-hurt-by-water-popup" ]
         probability: 0.25
-  - type: Butcherable
-    butcheringType: Spike
-    spawned:
-    - id: FoodMeatSlime
-      amount: 5
+# begin starcup: people are not food
+#  - type: Butcherable
+#    butcheringType: Spike
+#    spawned:
+#    - id: FoodMeatSlime
+#      amount: 5
+# end starcup
   - type: Respirator
     damage:
       types:
