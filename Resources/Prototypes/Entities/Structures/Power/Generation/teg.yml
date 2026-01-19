@@ -63,7 +63,7 @@
     - type: AtmosDevice
     - type: TegGenerator
       # thermalEfficiency: 0.1 # starcup: revert teg nerf
-      # powerFactor: 1.75 # starcup: revert power boost until maps are renovated
+      powerFactor: 1.75
 
     - type: DeviceNetwork
       deviceNetId: AtmosDevices
