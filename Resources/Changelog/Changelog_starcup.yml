@@ -2664,3 +2664,13 @@
   id: 8362
   time: '2026-01-21T23:33:43.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/688
+- author: Psymbiote
+  changes:
+  - message: You can grind houseflies and other small bug insect swarms into slime.
+      Mmmmm.
+    type: Tweak
+  - message: You can butcher large insects like mosquitos and wasps into slimeballs.
+    type: Tweak
+  id: 8363
+  time: '2026-01-21T23:43:02.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/690
