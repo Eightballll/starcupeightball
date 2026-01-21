@@ -2644,3 +2644,23 @@
   id: 8360
   time: '2026-01-19T01:48:16.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/686
+- author: Psymbiote
+  changes:
+  - message: Hammers and crash axes can now be put in the utility belt.
+    type: Fix
+  id: 8361
+  time: '2026-01-21T03:02:00.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/689
+- author: princesspengy
+  changes:
+  - message: crux station has seen another wave of fixes!
+    type: Tweak
+  - message: crux's security department has received a bit of expansion and some additional
+      tools, as well as their missing secdrobe
+    type: Tweak
+  - message: replaced the lizard and drazil plushies in crux's interrogation room
+      after reports of the divorce proceedings leading to explosive fallout
+    type: Tweak
+  id: 8362
+  time: '2026-01-21T23:33:43.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/688
