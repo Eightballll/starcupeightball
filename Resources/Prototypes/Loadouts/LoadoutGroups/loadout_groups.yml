@@ -82,23 +82,25 @@
   # - Cane
   # - WhiteCane # Delta-V
   # end starcup
-  - TowelColorWhite
-  - TowelColorGray
-  - TowelColorBlack
-  - TowelColorRed
-  - TowelColorOrange
-  - TowelColorLightBrown
-  - TowelColorYellow
-  - TowelColorDarkGreen
-  - TowelColorGreen
-  - TowelColorLightBlue
-  - TowelColorDarkBlue
-  - TowelColorPurple
-  - TowelColorMaroon
-  - TowelColorMime
-  - TowelColorSilver
-  - TowelColorGold
   # Misc Cosmetics
+  - TowelColorWhite
+  # TODO: removed by upstream, decide whether to keep these
+  #- TowelColorGray
+  #- TowelColorBlack
+  #- TowelColorRed
+  #- TowelColorOrange
+  #- TowelColorLightBrown
+  #- TowelColorYellow
+  #- TowelColorDarkGreen
+  #- TowelColorGreen
+  #- TowelColorLightBlue
+  #- TowelColorDarkBlue
+  #- TowelColorPurple
+  #- TowelColorMaroon
+  #- TowelColorMime
+  #- TowelColorSilver
+  #- TowelColorGold
+  # end starcup
   - GoldRing # Delta-V
   - SilverRing # Delta-V
 
