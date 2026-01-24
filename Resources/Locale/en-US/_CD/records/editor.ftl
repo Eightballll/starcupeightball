@@ -4,7 +4,11 @@ humanoid-profile-editor-cd-records-tab = Records
 # General
 humanoid-profile-editor-cd-records-height = Height (cm):
 humanoid-profile-editor-cd-records-weight = Weight (kg):
-humanoid-profile-editor-cd-records-contact-name = Emergency Contact Names(s):
+# TheDen, added Birthday
+humanoid-profile-editor-cd-records-birthday = Birthday:
+humanoid-profile-editor-cd-records-contact-name = Emergency Contact Name(s):
+# TheDen, added Place Of Residency
+humanoid-profile-editor-cd-records-residency = Current Place of Residency:
 
 # Employment
 humanoid-profile-editor-cd-records-employment = Employment
