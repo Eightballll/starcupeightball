@@ -2701,3 +2701,14 @@
   id: 8366
   time: '2026-01-25T05:16:47.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/698
+- author: KoboldCatgirl
+  changes:
+  - message: Omega has received a round of renovations, primarily targeted at Engineering,
+      Xenoarchaeology, and the Brig.
+    type: Add
+  - message: Omega now has job slots/areas for Psychologist, Boxer, Combat Medic,
+      and Reporter.
+    type: Add
+  id: 8367
+  time: '2026-01-27T01:58:44.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/701
