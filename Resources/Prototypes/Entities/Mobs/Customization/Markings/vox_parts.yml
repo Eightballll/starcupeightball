@@ -189,16 +189,16 @@
 #      type:
 #        !type:SimpleColoring
 #        color: "#937e3d"
-
-#- type: marking
-#  id: VoxTail
-#  bodyPart: Tail
-#  groupWhitelist: [Vox]
-#  forcedColoring: true
-#  sprites:
-#  - sprite: Mobs/Customization/vox_parts.rsi
-#    state: tail
 # end imp removals
+
+- type: marking
+  id: VoxTail
+  bodyPart: Tail
+  groupWhitelist: [Vox]
+  forcedColoring: false # starcup
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/Vox/tail.rsi # Impstation: new default sprite
+    state: colorable
 
 - type: marking
   id: VoxTailShort
