@@ -14,25 +14,20 @@
       required: true
       default: [ HarpyTailPhoenix ]
     enum.HumanoidVisualLayers.Chest:
-      limit: 1
-      required: true
-      default: [ HarpyChestDefault ]
+      limit: 2
+      required: false
     enum.HumanoidVisualLayers.HeadTop:
       limit: 1
       required: true
       default: [ HarpyEarsDefault ]
     enum.HumanoidVisualLayers.LArm:
       limit: 1
-      required: false
+      required: true
+      default: [ HarpyLeftWingDefaultHuescale ]
     enum.HumanoidVisualLayers.RArm:
       limit: 1
-      required: false
-    enum.HumanoidVisualLayers.LHand:
-      limit: 1
-      required: false
-    enum.HumanoidVisualLayers.RHand:
-      limit: 1
-      required: false
+      required: true
+      default: [ HarpyRightWingDefaultHuescale ]
     enum.HumanoidVisualLayers.LLeg:
       limit: 1
       required: false
@@ -101,7 +96,6 @@
     - map: [ "enum.HumanoidVisualLayers.Eyes" ]
 
     # Limbs
-    - map: [ "enum.HumanoidVisualLayers.LArm" ]
     - map: [ "enum.HumanoidVisualLayers.RLeg" ]
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
 
@@ -116,6 +110,9 @@
     - map: ["enum.HumanoidVisualLayers.LHand"]
     - map: ["enum.HumanoidVisualLayers.RHand"]
 
+    # Stuff that goes over the body but below equipment
+    - map: ["enum.HumanoidVisualLayers.Overlay"]
+
     # More equipment
     - map: [ "gloves" ]
     - map: [ "shoes" ]
@@ -127,9 +124,12 @@
     - map: [ "back" ]
     - map: [ "neck" ]
 
+    # Arms (moved above clothing)
+    - map: [ "enum.HumanoidVisualLayers.RArm" ]
+    - map: [ "enum.HumanoidVisualLayers.LArm" ]
+
     # Stuff that goes in front of equipment
     - map: [ "enum.HumanoidVisualLayers.SnoutCover" ]
-    - map: [ "enum.HumanoidVisualLayers.RArm" ] # Yes, RArm has to be down here
     - map: [ "enum.HumanoidVisualLayers.FacialHair" ]
     - map: [ "enum.HumanoidVisualLayers.Hair" ]
     - map: [ "enum.HumanoidVisualLayers.HeadSide" ]
@@ -154,7 +154,7 @@
       state: "creampie_human"
       visible: false
 
-    - map: [ enum.InstrumentVisuals.Layer ]
+    - map: [ "enum.InstrumentVisuals.Layer" ]
       sprite: _DV/Effects/harpysinger.rsi
       state: singing_music_notes
       visible: false

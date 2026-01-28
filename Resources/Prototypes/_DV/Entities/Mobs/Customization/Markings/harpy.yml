@@ -63,24 +63,6 @@
       state: finch_tail
 
 - type: marking
-  id: HarpyChestDefault
-  bodyPart: Chest
-  groupWhitelist: [Harpy]
-  coloring:
-    default:
-      type:
-        !type:CategoryColoring
-          category: Hair
-      fallbackTypes:
-        - !type:SimpleColoring
-          color: "#964b00"
-  sprites:
-    - sprite: _DV/Mobs/Customization/Harpy/harpy_chest.rsi
-      state: upper
-    - sprite: _DV/Mobs/Customization/Harpy/harpy_chest.rsi
-      state: lower
-
-- type: marking
   id: HarpyLegsDefault
   bodyPart: LLeg
   groupWhitelist: [Harpy]
