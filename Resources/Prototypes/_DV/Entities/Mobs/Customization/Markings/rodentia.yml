@@ -331,7 +331,7 @@
   bodyPart: Tail
   groupWhitelist: [Rodentia, Harpy] # starcup - added Harpies
   sprites:
-    - sprite: _starcup/Mobs/Customization/Rodentia/tail_markings.rsi
+    - sprite: _DV/Mobs/Customization/Rodentia/tail_markings.rsi
       state: short
 
 - type: marking
