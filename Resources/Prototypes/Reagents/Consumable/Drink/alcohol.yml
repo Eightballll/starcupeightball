@@ -90,7 +90,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.1
+        Ethanol: 0.2 # starcup: doubled from 0.1, upstream erroneously didn't double it with the rest
 
 - type: reagent
   id: Cognac
@@ -129,7 +129,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.4 # TODO(starcup): review ethanol contents
+        Ethanol: 0.22 # starcup: down from 0.4
 
 - type: reagent
   id: Ethanol
@@ -224,7 +224,10 @@
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: true
-  # TODO(starcup): review ethanol content
+  metabolisms:
+    Digestion:
+      metabolites:
+        Ethanol: 0.16 # starcup: increased from 0.12
 
 - type: reagent
   id: MelonLiquor
@@ -240,7 +243,10 @@
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: true
-  # TODO(starcup): review ethanol content
+  metabolisms:
+    Digestion:
+      metabolites:
+        Ethanol: 0.16 # starcup: increased from 0.12
 
 - type: reagent
   id: NTCahors
@@ -320,7 +326,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.4
+        Ethanol: 0.14 # starcup: reduced from 0.4
 
 - type: reagent
   id: Tequila
@@ -355,7 +361,10 @@
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # TODO(starcup): review ethanol content
+  metabolisms:
+    Digestion:
+      metabolites:
+        Ethanol: 0.16 # starcup: increased from 0.12
 
 - type: reagent
   id: Vodka
@@ -431,7 +440,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.6 # TODO(starcup): review ethanol contents
+        Ethanol: 0.12 # starcup: reduced from 0.6
       effects:
       - !type:SatiateThirst
         factor: 3
@@ -468,7 +477,15 @@
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # TODO(starcup): review ethanol content
+  # begin starcup: adjust ethanol content
+  metabolisms:
+    Digestion:
+      metabolites:
+        Ethanol: 0.16 # increased from 0.12
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+  # end starcup
 
 - type: reagent
   id: AlliesCocktail
@@ -484,7 +501,15 @@
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # TODO(starcup): review ethanol content
+  # begin starcup: adjust ethanol content
+  metabolisms:
+    Digestion:
+      metabolites:
+        Ethanol: 0.35 # increased from 0.12
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+  # end starcup
 
 - type: reagent
   id: Aloe
@@ -515,7 +540,15 @@
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # TODO(starcup): review ethanol content
+  # begin starcup: adjust ethanol content
+  metabolisms:
+    Digestion:
+      metabolites:
+        Ethanol: 0.21 # increased from 0.12
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+  # end starcup
 
 - type: reagent
   id: Andalusia
@@ -531,7 +564,15 @@
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # TODO(starcup): review ethanol content
+  # begin starcup: adjust ethanol content
+  metabolisms:
+    Digestion:
+      metabolites:
+        Ethanol: 0.27 # increased from 0.12
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+  # end starcup
 
 #Antifreeze as a drink is a bright blue color while it is an orangish red otherwise.
 #As a result this sprite doesn't need changing.
@@ -553,7 +594,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.3 # TODO(starcup): review ethanol contents
+        Ethanol: 0.2 # starcup: decreased from 0.3
 
 - type: reagent
   id: AtomicBomb
@@ -572,7 +613,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.3 # TODO(starcup): review ethanol contents
+        Ethanol: 0.24 # starcup: reduced from 0.3
         Uranium: 0.1
 
 - type: reagent
@@ -592,7 +633,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.3 # TODO(starcup): review ethanol contents
+        Ethanol: 0.25 # starcup: reduced from 0.3
 
 - type: reagent
   id: BahamaMama
@@ -608,12 +649,20 @@
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: true
-  # TODO(starcup): review ethanol content
+  # begin starcup: adjust ethanol content
+  metabolisms:
+    Digestion:
+      metabolites:
+        Ethanol: 0.2 # increased from 0.12
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+  # end starcup
 
 - type: reagent
   id: BananaHonk
   name: reagent-name-banana-honk
-  parent: BaseAlcohol
+  parent: BaseDrink # starcup: remove alcohol content
   desc: reagent-desc-banana-honk-starcup # starcup: rewritten
   physicalDesc: reagent-physical-desc-creamy
   flavor: bananahonk
@@ -624,7 +673,6 @@
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # TODO(starcup): remove alcohol content
 
 - type: reagent
   id: Barefoot
@@ -658,7 +706,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.3 # TODO(starcup): review ethanol content
+        Ethanol: 0.13 # starcup: decreased from 0.3
   fizziness: 0.3
 
 - type: reagent
@@ -678,7 +726,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.4 # TODO(starcup): review ethanol content
+        Ethanol: 0.32 # starcup: decreased from 0.4
 
 - type: reagent
   id: BloodyMary
@@ -694,7 +742,15 @@
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: true
-  # TODO(starcup): review ethanol content
+  # begin starcup: adjust ethanol content
+  metabolisms:
+    Digestion:
+      metabolites:
+        Ethanol: 0.13 # increased from 0.12
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+  # end starcup
 
 
 - type: reagent
@@ -729,7 +785,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.4 # TODO(starcup): review ethanol content
+        Ethanol: 0.32 # starcup: decreased from 0.4
 
 - type: reagent
   id: Bronx
@@ -745,7 +801,15 @@
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # TODO(starcup): review ethanol content
+  # begin starcup: adjust ethanol content
+  metabolisms:
+    Digestion:
+      metabolites:
+        Ethanol: 0.24 # increased from 0.12
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+  # end starcup
 
 - type: reagent
   id: CoconutRum
@@ -764,7 +828,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.4 # TODO(starcup): review ethanol content
+        Ethanol: 0.27 # starcup: decreased from 0.4
 
 - type: reagent
   id: Cosmopolitan
@@ -783,7 +847,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.3 # TODO(starcup): review ethanol content
+        Ethanol: 0.2 # starcup: decreased from 0.3
 
 - type: reagent
   id: CrushDepth
@@ -799,7 +863,15 @@
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # TODO(starcup): review ethanol content
+  # begin starcup: adjust ethanol content
+  metabolisms:
+    Digestion:
+      metabolites:
+        Ethanol: 0.2 # increased from 0.12
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+  # end starcup
 
 - type: reagent
   id: CubaLibre
@@ -835,7 +907,15 @@
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # TODO(starcup): review ethanol content
+  # begin starcup: adjust ethanol content
+  metabolisms:
+    Digestion:
+      metabolites:
+        Ethanol: 0.2 # increased from 0.12
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+  # end starcup
 
 - type: reagent
   id: DemonsBlood
@@ -867,7 +947,15 @@
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: true
-  # TODO(starcup): review ethanol content
+  # begin starcup: adjust ethanol content
+  metabolisms:
+    Digestion:
+      metabolites:
+        Ethanol: 0.19 # increased from 0.12
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+  # end starcup
 
 - type: reagent
   id: DoctorsDelight
@@ -933,7 +1021,15 @@
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # TODO(starcup): review ethanol content
+  # begin starcup: adjust ethanol content
+  metabolisms:
+    Digestion:
+      metabolites:
+        Ethanol: 0.2 # increased from 0.12
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+  # end starcup
 
 - type: reagent
   id: ElectricShark
@@ -949,7 +1045,15 @@
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # TODO(starcup): review ethanol content
+  # begin starcup: adjust ethanol content
+  metabolisms:
+    Digestion:
+      metabolites:
+        Ethanol: 0.17 # increased from 0.12
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+  # end starcup
 
 - type: reagent
   id: ErikaSurprise
@@ -1003,7 +1107,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.14
+        Ethanol: 0.13 # starcup: decreased from 0.14
   fizziness: 0.4 # A little high, but it has fizz in the name
 
 - type: reagent
@@ -1023,7 +1127,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.14
+        Ethanol: 0.13 # starcup: decreased from 0.14
   fizziness: 0.4
 
 - type: reagent
@@ -1043,7 +1147,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.4 # TODO(starcup): review ethanol content
+        Ethanol: 0.4
 
 - type: reagent
   id: Grog
@@ -1074,7 +1178,15 @@
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # TODO(starcup): review ethanol content
+  # begin starcup: adjust ethanol content
+  metabolisms:
+    Digestion:
+      metabolites:
+        Ethanol: 0.4 # increased from 0.12
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+  # end starcup
 
 - type: reagent
   id: Hooch
@@ -1118,7 +1230,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.3 # TODO(starcup): review ethanol content
+        Ethanol: 0.19 # starcup: decreased from 0.3
 
 - type: reagent
   id: IrishCream
@@ -1137,7 +1249,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.4 # TODO(starcup): review ethanol content
+        Ethanol: 0.27 # starcup: decreased from 0.4
 
 - type: reagent
   id: IrishCoffee
@@ -1156,7 +1268,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.3 # TODO(starcup): review ethanol content
+        Ethanol: 0.13 # starcup: decreased from 0.3
 
 - type: reagent
   id: JackRose
@@ -1187,7 +1299,15 @@
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # TODO(starcup): review ethanol content
+  # begin starcup: adjust ethanol content
+  metabolisms:
+    Digestion:
+      metabolites:
+        Ethanol: 0.2 # increased from 0.12
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+  # end starcup
 
 - type: reagent
   id: Kalimotxo
@@ -1221,7 +1341,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.3 # TODO(starcup): review ethanol content
+        Ethanol: 0.27 # starcup: decreased from 0.3
 
 - type: reagent
   id: Manhattan
@@ -1237,7 +1357,15 @@
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # TODO(starcup): review ethanol content
+  # begin starcup: adjust ethanol content
+  metabolisms:
+    Digestion:
+      metabolites:
+        Ethanol: 0.32 # increased from 0.12
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+  # end starcup
 
 - type: reagent
   id: ManhattanProject
@@ -1253,7 +1381,15 @@
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # TODO(starcup): review ethanol content
+  # begin starcup: adjust ethanol content
+  metabolisms:
+    Digestion:
+      metabolites:
+        Ethanol: 0.36 # increased from 0.12
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+  # end starcup
 
 - type: reagent
   id: ManlyDorf
@@ -1285,7 +1421,15 @@
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: true
-  # TODO(starcup): review ethanol content
+  # begin starcup: adjust ethanol content
+  metabolisms:
+    Digestion:
+      metabolites:
+        Ethanol: 0.27 # increased from 0.12
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+  # end starcup
 
 - type: reagent
   id: Martini
@@ -1304,7 +1448,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.3 # TODO(starcup): review ethanol content
+        Ethanol: 0.32 # starcup: increased from 0.3
 
 - type: reagent
   id: Mead
@@ -1337,7 +1481,15 @@
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
   fizziness: 0.3
-  # TODO(starcup): review ethanol content
+  # begin starcup: adjust ethanol content
+  metabolisms:
+    Digestion:
+      metabolites:
+        Ethanol: 0.16 # increased from 0.12
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+  # end starcup
 
 - type: reagent
   id: MonkeyBusiness
@@ -1353,7 +1505,15 @@
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # TODO(starcup): review ethanol content
+  # begin starcup: adjust ethanol content
+  metabolisms:
+    Digestion:
+      metabolites:
+        Ethanol: 0.25 # increased from 0.12
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+  # end starcup
 
 - type: reagent
   id: Moonshine
@@ -1417,7 +1577,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.4 # TODO(starcup): review ethanol content
+        Ethanol: 0.12 # starcup: decreased from 0.4
 
 - type: reagent
   id: Patron
@@ -1436,7 +1596,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.4 # TODO(starcup): review ethanol content
+        Ethanol: 0.4
 
 - type: reagent
   id: RedMead
@@ -1474,7 +1634,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.4 # TODO(starcup): review ethanol content
+        Ethanol: 0.12 # starcup: decreased from 0.4
 
 - type: reagent
   id: Radler
@@ -1494,7 +1654,7 @@
 - type: reagent
   id: Sbiten
   name: reagent-name-sbiten
-  parent: BaseAlcohol
+  parent: BaseDrink # starcup: remove alcohol content
   desc: reagent-desc-sbiten-starcup # starcup: rewritten
   physicalDesc: reagent-physical-desc-thick # starcup
   flavor: sbiten-starcup # starcup: rewritten
@@ -1505,7 +1665,6 @@
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: true
-  # TODO(starcup): remove alcohol content
 
 - type: reagent
   id: ScrewdriverCocktail
@@ -1524,7 +1683,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.14
+        Ethanol: 0.13 # starcup: decreased from 0.14
 
 - type: reagent
   id: CogChamp
@@ -1543,7 +1702,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.3 # TODO(starcup): review ethanol content
+        Ethanol: 0.18 # starcup: decreased from 0.3
       effects:
         - !type:GenericStatusEffect
           key: RatvarianLanguage
@@ -1554,7 +1713,7 @@
 - type: reagent
   id: Silencer
   name: reagent-name-silencer
-  parent: BaseAlcohol
+  parent: BaseDrink # starcup: remove alcohol content
   desc: reagent-desc-silencer-starcup # starcup: rewritten
   physicalDesc: reagent-physical-desc-strong-smelling
   flavor: silencer-starcup # starcup: rewritten
@@ -1636,6 +1795,15 @@
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: true
   fizziness: 0.6
+  # begin starcup: adjust ethanol content
+  metabolisms:
+    Digestion:
+      metabolites:
+        Ethanol: 0.13 # increased from 0.12
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+  # end starcup
 
 - type: reagent
   id: TequilaSunrise
@@ -1654,7 +1822,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.3 # TODO(starcup): review ethanol content
+        Ethanol: 0.12 # starcup: decreased from 0.3
 
 - type: reagent
   id: TheMartinez
@@ -1671,7 +1839,15 @@
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
   fizziness: 0.2
-  # TODO(starcup): review ethanol content
+  # begin starcup: adjust ethanol content
+  metabolisms:
+    Digestion:
+      metabolites:
+        Ethanol: 0.13 # increased from 0.12
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+  # end starcup
 
 - type: reagent
   id: ThreeMileIsland
@@ -1690,7 +1866,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.3 # TODO(starcup): review ethanol content
+        Ethanol: 0.24 # starcup: decreased from 0.3
         Uranium: 0.1
 
 - type: reagent
@@ -1707,7 +1883,15 @@
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # TODO(starcup): review ethanol content
+  # begin starcup: adjust ethanol content
+  metabolisms:
+    Digestion:
+      metabolites:
+        Ethanol: 0.19 # increased from 0.12
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+  # end starcup
 
 - type: reagent
   id: Vampiro
@@ -1723,7 +1907,6 @@
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # TODO(starcup): review ethanol content
 
 - type: reagent
   id: VodkaMartini
@@ -1742,7 +1925,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.3 # TODO(starcup): review ethanol content
+        Ethanol: 0.32 # starcup: increased from 0.3
 
 - type: reagent
   id: VodkaTonic
@@ -1761,7 +1944,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.14
+        Ethanol: 0.13 # starcup: decreased from 0.14
   fizziness: 0.4
 
 - type: reagent
@@ -1781,7 +1964,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.14
+        Ethanol: 0.13 # starcup: decreased from 0.14
   fizziness: 0.3
 
 - type: reagent
@@ -1801,7 +1984,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.14
+        Ethanol: 0.13 # starcup: decreased from 0.14
   fizziness: 0.4
 
 - type: reagent
@@ -1815,7 +1998,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.3 # TODO(starcup): review ethanol content
+        Ethanol: 0.12 # starcup: decreased from 0.3
   fizziness: 0.5
 
 - type: reagent
@@ -1835,7 +2018,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.3 # TODO(starcup): review ethanol content
+        Ethanol: 0.16 # starcup: decreased from 0.3
 
 - type: reagent
   id: VodkaRedBool
@@ -1854,7 +2037,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.2 # TODO(starcup): review ethanol content
+        Ethanol: 0.13 # starcup: decreased from 0.2
         Caffeine: 0.1 # starcup: replacement for theobromine
       effects:
         - !type:SatiateThirst
@@ -1882,7 +2065,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.3 # TODO(starcup): review ethanol content
+        Ethanol: 0.12 # starcup: decreased from 0.3
         Caffeine: 0.1 # starcup: replacement for theobromine
       effects:
         - !type:SatiateThirst
@@ -1910,7 +2093,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.2 # TODO(starcup): review ethanol content
+        Ethanol: 0.12 # starcup: down from 0.2
         Caffeine: 0.1 # starcup: replacement for theobromine
       effects:
         - !type:SatiateThirst
@@ -1938,7 +2121,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.3 # TODO(starcup): review ethanol content
+        Ethanol: 0.22 # starcup: decreased from 0.3
         Caffeine: 0.1 # starcup: replacement for theobromine
       effects:
         - !type:SatiateThirst
@@ -1966,7 +2149,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.14
+        Ethanol: 0.13 # starcup: decreased from 0.14
         Caffeine: 0.1 # starcup: replacement for theobromine
       effects:
         - !type:SatiateThirst
@@ -1994,7 +2177,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.3 # TODO(starcup): review ethanol content
+        Ethanol: 0.12 # starcup: decreased from 0.3
         Caffeine: 0.1 # starcup: replacement for theobromine
       effects:
         - !type:SatiateThirst
@@ -2022,7 +2205,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.4 # TODO(starcup): review ethanol content
+        Ethanol: 0.15 # starcup: decreased from 0.4
 
 - type: reagent
   id: Caipirinha
@@ -2041,7 +2224,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.2 # TODO(starcup): review ethanol content
+        Ethanol: 0.12 # starcup: decreased from 0.2
 
 - type: reagent
   id: MoscowMule
@@ -2060,7 +2243,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.2 # TODO(starcup): review ethanol content
+        Ethanol: 0.13 # starcup: decreased from 0.2
         Copper: 0.1
 
 - type: reagent
@@ -2105,7 +2288,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.14 # TODO(starcup): review ethanol content
+        Ethanol: 0.12 # starcup: decreased from 0.14
 
 - type: reagent
   id: Mayojito
@@ -2124,7 +2307,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.15 # TODO(starcup): review ethanol content
+        Ethanol: 0.12 # starcup: decreased from 0.15
       effects:
       - !type:Vomit
         conditions:
@@ -2156,7 +2339,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.6 # TODO(starcup): review ethanol content
+        Ethanol: 0.44 # starcup: decreased from 0.6
 
 - type: reagent
   id: Empress75
@@ -2175,7 +2358,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.6 # TODO(starcup): review ethanol content
+        Ethanol: 0.17 # starcup: decreased from 0.6
 
 - type: reagent
   id: EspressoMartini
@@ -2194,7 +2377,8 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.4 # TODO(starcup): review ethanol content
+        Ethanol: 0.16 # starcup: decreased from 0.4
+        Caffeine: 0.1 # starcup: add caffeine
 
 - type: reagent
   id: Daiquiri
@@ -2213,7 +2397,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.2 # TODO(starcup): review ethanol content
+        Ethanol: 0.27 # starcup: increased from 0.2
 
 - type: reagent
   id: TheSunAlsoRises
@@ -2232,7 +2416,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.6 # TODO(starcup): review ethanol content
+        Ethanol: 0.32 # starcup: decreased from 0.6
 
 - type: reagent
   id: WhiskeySour
@@ -2251,7 +2435,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.4 # TODO(starcup): review ethanol content
+        Ethanol: 0.13 # starcup: decreased from 0.4
 
 - type: reagent
   id: ZombieCocktail

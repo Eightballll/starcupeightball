@@ -76,7 +76,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.6 # TODO(starcup): review ethanol content
+        Ethanol: 0.6
       effects:
       - !type:SatiateThirst
         factor: 2
@@ -113,7 +113,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.18 # TODO(starcup): review ethanol content
+        Ethanol: 0.13 # starcup: decreased from 0.4
       effects:
       - !type:SatiateThirst
         factor: 2
@@ -138,7 +138,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.3 # TODO(starcup): review ethanol content
+        Ethanol: 0.16 # starcup: decreased from 0.3
       effects:
       - !type:SatiateThirst
         factor: 2
@@ -156,13 +156,6 @@
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
-  metabolisms:
-    Digestion:
-      metabolites:
-        Ethanol: 0.1 # TODO(starcup): review ethanol content
-      effects:
-      - !type:SatiateThirst
-        factor: 2
 
 - type: reagent
   id: ArsonistsBrew
@@ -181,7 +174,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.6 # TODO(starcup): review ethanol content
+        Ethanol: 0.6
       effects:
       - !type:SatiateThirst
         factor: 2
@@ -228,7 +221,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.5 # TODO(starcup): review ethanol content
+        Ethanol: 0.5
         Caffeine: 0.1
       effects:
       - !type:SatiateThirst

@@ -97,6 +97,8 @@
   metamorphicChangeColor: false
   metabolisms:
     Digestion:
+      metabolites:
+        Caffeine: 0.1 # starcup: added
       effects:
       - !type:SatiateThirst
         factor: 2
@@ -104,7 +106,6 @@
         effectProto: StatusEffectDrowsiness
         time: 2
         type: Remove
-  # TODO(starcup): add caffeine
 
 - type: reagent
   id: GreenTea
@@ -120,7 +121,13 @@
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # TODO(starcup): add theobromine
+  metabolisms:
+    Digestion:
+      metabolites:
+        Theobromine: 0.1 # starcup: added
+      effects:
+      - !type:SatiateThirst
+        factor: 3
 
 - type: reagent
   id: Grenadine
@@ -179,7 +186,13 @@
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # TODO(starcup): add theobromine
+  metabolisms:
+    Digestion:
+      metabolites:
+        Theobromine: 0.1 # starcup: added
+      effects:
+      - !type:SatiateThirst
+        factor: 3
 
 - type: reagent
   id: IcedTea
@@ -581,7 +594,13 @@
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: true
   fizziness: 0.3
-  # TODO(starcup): add caffeine
+  metabolisms:
+    Digestion:
+      metabolites:
+        Caffeine: 0.1 # starcup: added
+      effects:
+      - !type:SatiateThirst
+        factor: 3
 
 - type: reagent
   id: Mopwata
@@ -611,4 +630,10 @@
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # TODO(starcup): add theobromine
+  metabolisms:
+    Digestion:
+      metabolites:
+        Theobromine: 0.1 # starcup: added
+      effects:
+      - !type:SatiateThirst
+        factor: 3

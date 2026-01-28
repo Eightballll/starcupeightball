@@ -15,7 +15,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.26 # TODO(starcup): review ethanol content
+        Ethanol: 0.26
       effects:
       - !type:SatiateThirst
         factor: 2
@@ -37,7 +37,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.2 # TODO(starcup): review ethanol content
+        Ethanol: 0.2
       effects:
       - !type:SatiateThirst
         factor: 2
@@ -59,7 +59,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.8 # TODO(starcup): review ethanol content
+        Ethanol: 0.8
       effects:
       - !type:SatiateThirst
         factor: 2
@@ -94,7 +94,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.26 # TODO(starcup): review ethanol content
+        Ethanol: 0.27
       effects:
       - !type:SatiateThirst
         factor: 2
@@ -116,7 +116,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.24 # TODO(starcup): review ethanol content
+        Ethanol: 0.24
       effects:
       - !type:SatiateThirst
         factor: 2
@@ -135,7 +135,6 @@
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # TODO(starcup): review ethanol content
 
 - type: reagent
   id: BlueLagoon
@@ -154,7 +153,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.16 # TODO(starcup): review ethanol content
+        Ethanol: 0.17
       effects:
       - !type:SatiateThirst
         factor: 2
@@ -176,7 +175,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.18 # TODO(starcup): review ethanol content
+        Ethanol: 0.18
       effects:
       - !type:SatiateThirst
         factor: 2
@@ -198,7 +197,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.18 # TODO(starcup): review ethanol content
+        Ethanol: 0.17
       effects:
       - !type:SatiateThirst
         factor: 2
@@ -220,7 +219,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.2 # TODO(starcup): review ethanol content
+        Ethanol: 0.2
       effects:
       - !type:SatiateThirst
         factor: 2
@@ -239,7 +238,6 @@
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: true
-  # TODO(starcup): review ethanol content
 
 - type: reagent
   id: CherryBomb
@@ -258,7 +256,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.16 # TODO(starcup): review ethanol content
+        Ethanol: 0.16
       effects:
       - !type:SatiateThirst
         factor: 2
@@ -280,7 +278,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.28 # TODO(starcup): review ethanol content
+        Ethanol: 0.26
       effects:
       - !type:SatiateThirst
         factor: 2
@@ -302,7 +300,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.16 # TODO(starcup): review ethanol content
+        Ethanol: 0.17
       effects:
       - !type:SatiateThirst
         factor: 2
@@ -324,7 +322,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.5 # TODO(starcup): review ethanol content
+        Ethanol: 0.47
       effects:
       - !type:SatiateThirst
         factor: 2
@@ -346,7 +344,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.2 # TODO(starcup): review ethanol content
+        Ethanol: 0.2
       effects:
       - !type:SatiateThirst
         factor: 2
@@ -368,7 +366,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.24 # TODO(starcup): review ethanol content
+        Ethanol: 0.25
       effects:
       - !type:SatiateThirst
         factor: 2
@@ -390,7 +388,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.2 # TODO(starcup): review ethanol content
+        Ethanol: 0.19
       effects:
       - !type:SatiateThirst
         factor: 2
@@ -412,7 +410,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.16 # TODO(starcup): review ethanol content
+        Ethanol: 0.15
       effects:
       - !type:SatiateThirst
         factor: 2
@@ -442,7 +440,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.2 # TODO(starcup): review ethanol content
+        Ethanol: 0.2
       effects:
       - !type:SatiateThirst
         factor: 2
@@ -464,7 +462,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.2 # TODO(starcup): review ethanol content
+        Ethanol: 0.12
       effects:
       - !type:SatiateThirst
         factor: 2
@@ -502,7 +500,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.2 # TODO(starcup): review ethanol content
+        Ethanol: 0.2
       effects:
       - !type:SatiateThirst
         factor: 2
@@ -521,7 +519,6 @@
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # TODO(starcup): review ethanol content
 
 - type: reagent
   id: RainbowShooter
@@ -537,7 +534,6 @@
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # TODO(starcup): review ethanol content
 
 - type: reagent
   id: RedDog
@@ -553,7 +549,6 @@
   metamorphicMaxFillLevels: 2
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # TODO(starcup): review ethanol content
 
 - type: reagent
   id: RedEye
@@ -569,7 +564,6 @@
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # TODO(starcup): review ethanol content
 
 - type: reagent
   id: SakuraMartini
@@ -588,7 +582,7 @@
   metabolisms:
     Digestion:
       metabolites:
-        Ethanol: 0.2 # TODO(starcup): review ethanol content
+        Ethanol: 0.19
       effects:
       - !type:SatiateThirst
         factor: 2
@@ -607,4 +601,3 @@
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
-  # TODO(starcup): review ethanol content
