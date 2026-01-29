@@ -300,92 +300,53 @@
   components:
   - type: Sprite
     sprite: _EE/Mobs/Species/IPC/parts.rsi
+  - type: VisualOrgan
+    data:
+      sprite: null
+      state: null
+    sexStateOverrides:
+      Male: null
+      Female: null
 
 - type: entity
-  parent: [ OrganBaseTorsoSexed, OrganBaseTorso, OrganIPCExternal ]
+  parent: [ OrganIPCExternal, OrganBaseTorsoSexed, OrganBaseTorso ]
   id: OrganIPCTorso
-  components:
-  - type: VisualOrgan
-    data:
-      sprite: null
-    sexStateOverrides:
-      Male: null
-      Female: null
 
 - type: entity
-  parent: [ OrganBaseHeadSexed, OrganBaseHead, OrganIPCExternal ]
+  parent: [ OrganIPCExternal, OrganBaseHeadSexed, OrganBaseHead ]
   id: OrganIPCHead
-  components:
-  - type: VisualOrgan
-    data:
-      sprite: null
-    sexStateOverrides:
-      Male: null
-      Female: null
 
 - type: entity
-  parent: [ OrganBaseArmLeft, OrganIPCExternal ]
+  parent: [ OrganIPCExternal, OrganBaseArmLeft ]
   id: OrganIPCArmLeft
-  components:
-  - type: VisualOrgan
-    data:
-      sprite: null
 
 - type: entity
-  parent: [ OrganBaseArmRight, OrganIPCExternal ]
+  parent: [ OrganIPCExternal, OrganBaseArmRight ]
   id: OrganIPCArmRight
-  components:
-  - type: VisualOrgan
-    data:
-      sprite: null
 
 - type: entity
-  parent: [ OrganBaseHandLeft, OrganIPCExternal ]
+  parent: [ OrganIPCExternal, OrganBaseHandLeft ]
   id: OrganIPCHandLeft
-  components:
-  - type: VisualOrgan
-    data:
-      sprite: null
 
 - type: entity
-  parent: [ OrganBaseHandRight, OrganIPCExternal ]
+  parent: [ OrganIPCExternal, OrganBaseHandRight ]
   id: OrganIPCHandRight
-  components:
-  - type: VisualOrgan
-    data:
-      sprite: null
 
 - type: entity
-  parent: [ OrganBaseLegLeft, OrganIPCExternal ]
+  parent: [ OrganIPCExternal, OrganBaseLegLeft ]
   id: OrganIPCLegLeft
-  components:
-  - type: VisualOrgan
-    data:
-      sprite: null
 
 - type: entity
-  parent: [ OrganBaseLegRight, OrganIPCExternal ]
+  parent: [ OrganIPCExternal, OrganBaseLegRight ]
   id: OrganIPCLegRight
-  components:
-  - type: VisualOrgan
-    data:
-      sprite: null
 
 - type: entity
-  parent: [ OrganBaseFootLeft, OrganIPCExternal ]
+  parent: [ OrganIPCExternal, OrganBaseFootLeft ]
   id: OrganIPCFootLeft
-  components:
-  - type: VisualOrgan
-    data:
-      sprite: null
 
 - type: entity
-  parent: [ OrganBaseFootRight, OrganIPCExternal ]
+  parent: [ OrganIPCExternal, OrganBaseFootRight ]
   id: OrganIPCFootRight
-  components:
-  - type: VisualOrgan
-    data:
-      sprite: null
 
 - type: entity
   parent: [ OrganIPCVisual, OrganBaseEyes, OrganIPCInternal ]

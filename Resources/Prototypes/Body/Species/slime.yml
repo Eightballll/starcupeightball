@@ -8,11 +8,10 @@
     enum.HumanoidVisualLayers.FacialHair:
       limit: 1
       required: false
-    # begin starcup: added for eye markings
+    # begin starcup: added
     enum.HumanoidVisualLayers.Head:
-      limit: 4
+      limit: 2
       required: false
-      default: [ SlimeEyesDefault ]
     # end starcup
     enum.HumanoidVisualLayers.Chest:
       limit: 4 # starcup: up from 2
@@ -41,6 +40,10 @@
     enum.HumanoidVisualLayers.RFoot:
       limit: 2 # starcup: up from 1
       required: false
+    enum.HumanoidVisualLayers.Eyes:
+      limit: 1
+      required: true
+      default: [ SlimeEyesDefault ]
   appearances:
     enum.HumanoidVisualLayers.Hair:
       layerAlpha: 0.72
@@ -227,6 +230,21 @@
 - type: entity
   parent: [ OrganBaseHead, OrganSlimePersonExternal ]
   id: OrganSlimePersonHead
+  # begin starcup: put new eye layers on the head
+  components:
+  - type: VisualOrganMarkings
+    markingData:
+      layers:
+      - HeadBase
+      - Head
+      - Eyes # added
+      - Hair
+      - FacialHair
+      - Snout
+      - SnoutCover
+      - HeadSide
+      - HeadTop
+  # end starcup
 
 - type: entity
   parent: [ OrganBaseArmLeft, OrganSlimePersonExternal ]

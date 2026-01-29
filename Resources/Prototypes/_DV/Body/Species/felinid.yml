@@ -132,6 +132,7 @@
   - type: VisualOrgan
     data:
       sprite: null
+      state: null
     sexStateOverrides:
       Male: null
       Female: null

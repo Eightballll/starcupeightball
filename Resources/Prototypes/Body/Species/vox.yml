@@ -13,9 +13,11 @@
     enum.HumanoidVisualLayers.Head:
       limit: 4
       required: false
+    # begin starcup: added for new markings
     enum.HumanoidVisualLayers.HeadSide:
       limit: 1
       required: false
+    # end starcup
     enum.HumanoidVisualLayers.Snout:
       limit: 1
       required: true

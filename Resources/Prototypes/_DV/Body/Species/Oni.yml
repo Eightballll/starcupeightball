@@ -10,7 +10,7 @@
       default: [ OniHornDoubleCurved ]
     enum.HumanoidVisualLayers.HeadSide:
       limit: 1
-      required: false
+      required: true
       default: [ PointyEarsUpwards ]
     enum.HumanoidVisualLayers.Snout:
       limit: 2

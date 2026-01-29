@@ -129,7 +129,7 @@
 
 - type: marking
   id: SlimeEyesDefault
-  bodyPart: Head
+  bodyPart: Eyes
   groupWhitelist: [ Slime ]
   forcedColoring: true
   coloring:
@@ -142,7 +142,7 @@
 
 - type: marking
   id: SlimeEyeglow
-  bodyPart: Head
+  bodyPart: Eyes
   groupWhitelist: [ Slime ]
   coloring:
     default:
@@ -156,7 +156,7 @@
 
 - type: marking
   id: SlimeEyesDroopy
-  bodyPart: Head
+  bodyPart: Eyes
   groupWhitelist: [ Slime ]
   coloring:
     default:
@@ -169,7 +169,7 @@
 
 - type: marking
   id: SlimeEyesDroopyGlowing
-  bodyPart: Head
+  bodyPart: Eyes
   groupWhitelist: [ Slime ]
   coloring:
     default:
@@ -183,7 +183,7 @@
 
 - type: marking
   id: SlimeEyesCyclops
-  bodyPart: Head
+  bodyPart: Eyes
   groupWhitelist: [ Slime ]
   coloring:
     default:
@@ -196,7 +196,7 @@
 
 - type: marking
   id: SlimeEyesCyclopsGlowing
-  bodyPart: Head
+  bodyPart: Eyes
   groupWhitelist: [ Slime ]
   coloring:
     default:
