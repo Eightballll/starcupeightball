@@ -700,16 +700,20 @@
   id: HappyHonkToyUnsafeEntityTable
   table: !type:GroupSelector
     children: # Total Weight 6
-    - id: ClothingHeadHatCatEars
-      weight: 0.25
+    # begin starcup: remove
+    #- id: ClothingHeadHatCatEars
+    #  weight: 0.25
+    # end starcup
     - id: C4
       weight: 0.05
     - id: ToyMarauder
     - id: ToyMauler
     - id: ToyNuke
     - id: ToySword
-    - id: WeaponRevolverPythonAP
-      weight: 0.4
+    # begin starcup: put back into uplink
+    #- id: WeaponRevolverPythonAP
+    #  weight: 0.4
+    # end starcup
     - id: BalloonSyn
       weight: 0.3
     - id: PlushieNuke

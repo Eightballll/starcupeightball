@@ -238,7 +238,6 @@
     baseWalkSpeed: 2.5
     baseSprintSpeed: 5.0
     weightlessAcceleration: 2.5
-  - type: HarpyVisuals
   - type: UltraVision
   - type: Tag
     tags:
