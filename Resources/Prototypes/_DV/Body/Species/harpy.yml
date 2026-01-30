@@ -291,6 +291,10 @@
 - type: entity
   parent: [ OrganBaseTorsoSexed, OrganBaseTorso, OrganHarpyExternal ]
   id: OrganHarpyTorso
+  components:
+  - type: VisualOrganMarkings
+    hideableLayers:
+    - enum.HumanoidVisualLayers.Tail
 
 - type: entity
   parent: [ OrganBaseHeadSexed, OrganBaseHead, OrganHarpyExternal ]
@@ -299,10 +303,18 @@
 - type: entity
   parent: [ OrganBaseArmLeft, OrganHarpyExternal ]
   id: OrganHarpyArmLeft
+  components:
+  - type: VisualOrganMarkings
+    hideableLayers:
+    - enum.HumanoidVisualLayers.LArm
 
 - type: entity
   parent: [ OrganBaseArmRight, OrganHarpyExternal ]
   id: OrganHarpyArmRight
+  components:
+  - type: VisualOrganMarkings
+    hideableLayers:
+    - enum.HumanoidVisualLayers.RArm
 
 - type: entity
   parent: [ OrganBaseHandLeft, OrganHarpyExternal ]
