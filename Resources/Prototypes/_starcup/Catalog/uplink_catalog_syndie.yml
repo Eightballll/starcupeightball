@@ -58,7 +58,7 @@
   - UplinkDisruption
 
 - type: listing
-  id: UplinkAntimovCircuitBoard
+  id: UplinkAntimovCircuitBoardTraitor
   name: uplink-antimov-law-name
   description: uplink-antimov-law-desc
   productEntity: AntimovCircuitBoard
