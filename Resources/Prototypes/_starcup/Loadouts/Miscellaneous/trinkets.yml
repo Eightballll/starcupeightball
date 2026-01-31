@@ -397,8 +397,11 @@
 - type: loadout
   id: TowelColorLightBlue
   effects:
-  - !type:GroupLoadoutEffect
-    proto: MedicalExpertTimer
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: Medical
+      time: 100h
   storage:
     back:
     - TowelColorLightBlue
