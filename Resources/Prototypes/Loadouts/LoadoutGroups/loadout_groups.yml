@@ -84,22 +84,22 @@
   # end starcup
   # Misc Cosmetics
   - TowelColorWhite
-  # TODO(starcup): removed by upstream, decide whether to keep these
-  #- TowelColorGray
-  #- TowelColorBlack
-  #- TowelColorRed
-  #- TowelColorOrange
-  #- TowelColorLightBrown
-  #- TowelColorYellow
-  #- TowelColorDarkGreen
-  #- TowelColorGreen
-  #- TowelColorLightBlue
-  #- TowelColorDarkBlue
-  #- TowelColorPurple
-  #- TowelColorMaroon
-  #- TowelColorMime
-  #- TowelColorSilver
-  #- TowelColorGold
+  # begin starcup: job towels
+  - TowelColorGray
+  - TowelColorBlack
+  - TowelColorRed
+  - TowelColorOrange
+  - TowelColorLightBrown
+  - TowelColorYellow
+  - TowelColorDarkGreen
+  - TowelColorGreen
+  - TowelColorLightBlue
+  - TowelColorDarkBlue
+  - TowelColorPurple
+  - TowelColorMaroon
+  - TowelColorMime
+  - TowelColorSilver
+  - TowelColorGold
   # end starcup
   - GoldRing # Delta-V
   - SilverRing # Delta-V
