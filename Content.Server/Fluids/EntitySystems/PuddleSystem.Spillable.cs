@@ -23,6 +23,7 @@ public sealed partial class PuddleSystem
         // Openable handles the event if it's closed
         SubscribeLocalEvent<SpillableComponent, SolutionContainerOverflowEvent>(OnOverflow);
         SubscribeLocalEvent<SpillableComponent, SpillDoAfterEvent>(OnDoAfter);
+        SubscribeLocalEvent<SpillableComponent, AttemptPacifiedThrowEvent>(OnAttemptPacifiedThrow);
     }
 
     private void OnOverflow(Entity<SpillableComponent> entity, ref SolutionContainerOverflowEvent args)
