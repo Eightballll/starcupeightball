@@ -7,7 +7,6 @@ using Content.Shared.Weapons.Melee.Events;
 using Robust.Shared.Player;
 using Content.Shared._DV.Chemistry.Systems; // DeltaV Beergoggles enable safe throw
 using Robust.Shared.Physics.Systems; // DeltaV Beergoggles enable safe throw
-using Content.Shared.CombatMode.Pacification;
 
 namespace Content.Server.Fluids.EntitySystems;
 
