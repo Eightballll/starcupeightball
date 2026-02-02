@@ -1,0 +1,72 @@
+- type: entity
+  id: SpaceBladeSC
+  parent: SpaceBlade
+  components:
+  - type: Sprite
+    state: starcup
+
+- type: entity
+  id: SpaceBladeSyndicate
+  parent: SpaceBlade
+  description: Let it hiss
+  components:
+  - type: Sprite
+    sprite: _NF/Objects/Fun/spaceblade.rsi
+    layers:
+      - state: syndicate
+      - state: syndicateactive
+        visible: false
+        map: ["active"]
+  - type: ToggleableVisuals
+    spriteLayer: active
+  - type: Appearance
+  - type: ItemToggle
+    soundActivate:
+      path: /Audio/Weapons/utilityknifeopen.ogg
+      params:
+        variation: 0.250
+    soundDeactivate:
+      path: /Audio/Weapons/utilityknifeclose.ogg
+      params:
+        variation: 0.250
+    soundFailToActivate:
+      path: /Audio/Machines/button.ogg
+      params:
+        variation: 0.250
+  - type: ItemToggleMeleeWeapon
+    activatedDamage: 
+      types: 
+        Slash: 5
+    activatedSoundOnHit: 
+      path: /Audio/Weapons/bladeslice.ogg
+    animation: WeaponArcThrust
+  - type: PointLight
+    enabled: true
+    radius: 3
+    color: "#b83b3b"
+  - type: StaticPrice
+    price: 100
+  - type: ComponentToggler
+    components:
+    - type: DamageOtherOnHit
+      damage:
+        types:
+          Slash: 5
+      activatedSoundOnHit: 
+        path: /Audio/Weapons/bladeslice.ogg
+
+- type: entity
+  id: SpaceBladeNT 
+  parent: SpaceBladeSyndicate
+  description: Let it corrupt
+  components:
+  - type: Sprite
+    sprite: _NF/Objects/Fun/spaceblade.rsi
+    layers:
+      - state: nt
+      - state: ntactive
+        visible: false
+        map: ["active"]
+  - type: PointLight
+    enabled: false
+  - type: Contraband

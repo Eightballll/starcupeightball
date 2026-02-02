@@ -60,3 +60,7 @@
       - id: SpaceBladeSingularity
         orGroup: SB
         prob: 0.10
+      #starcup
+      - id: SpaceBladeSC 
+        orGroup: SB 
+        prob: 0.20

@@ -96,3 +96,6 @@ uplink-balloon-desc-starcup = Specially designed to inflict maximum psychologica
 
 uplink-nanotrasen-lighter-name = NanoTrasen lighter
 uplink-nanotrasen-lighter-desc = A navy blue luxury lighter. Fueled by liquid plasma, to show just how much of it NanoTrasen has to go around.
+
+uplink-spaceblade-nanotrasen-name = NanoTrasen SpaceBlade 
+uplink-spaceblade-nanotrasen-desc = Made from real metal!

@@ -153,7 +153,6 @@
     enabled: true
     radius: 5
     color: "#3db83b"
-  - type: Contraband
   - type: StaticPrice
     price: 100
 

@@ -2251,3 +2251,14 @@
   - !type:BuyerJobCondition
     whitelist:
     - MedicalDoctor
+
+- type: listing
+  id: UplinkSpaceBladeNT
+  name: uplink-spaceblade-nanotrasen-name
+  description: uplink-spaceblade-nanotrasen-desc
+  productEntity: SpaceBladeNT
+  discountCategory: rareDiscounts
+  cost:
+    Telecrystal: 3
+  categories:
+  - UplinkPointless

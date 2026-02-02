@@ -74,6 +74,21 @@
         },
         {
             "name": "mcblade"
-        }
+        },
+	{
+	    "name": "starcup"
+	},
+	{
+	    "name": "syndicate"
+	},
+	{
+	    "name": "syndicateactive"
+	},
+	{
+	    "name": "nt"
+	},
+	{
+	    "name": "ntactive"
+	}
     ]
 }
