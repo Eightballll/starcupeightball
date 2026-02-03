@@ -230,6 +230,39 @@
     - id: ToyPhazon
     - id: ToyReticence
 
+#Spaceblades (except the NT and Syndicate ones)
+- type: entityTable 
+  id: AllSpacebladesTable
+  table: !type:GroupSelector
+    children:
+    - !type:GroupSelector #Common spaceblades
+      children: 
+      - id: SpaceBladeRedOrange
+      - id: SpaceBladeBlue
+      - id: SpaceBladeFrontier
+      - id: SpaceBladeGoldBlue
+      - id: SpaceBladeMail
+      - id: SpaceBladeEyeball
+      - id: SpaceBladeBlade
+      - id: MysterySpaceBladeBox
+    - !type:GroupSelector #Uncommon spaceblades
+      prob: 0.4
+      children:
+      - id: SpaceBladeCheck
+      - id: SpaceBladeRune
+      - id: SpaceBladeMoff
+      - id: SpaceBladePizza
+      - id: SpaceBladeWeh
+      - id: SpaceBladeClown
+      - id: SpaceBladeSC
+      - id: SpaceBladeSec
+    - !type:GroupSelector #Rare spaceblades
+      prob: 0.1
+      children: 
+      - id: SpaceBladeTesla
+      - id: SpaceBladeSingularity
+      - id: SpaceBladeContra
+
 # Items that are used to "attack" people. Legitimate combat use for these is limited
 - type: entityTable # size 2x4  # price 100
   id: AllToyWeaponsTable
