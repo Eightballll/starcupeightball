@@ -40,10 +40,10 @@
       params:
         variation: 0.250
   - type: ItemToggleMeleeWeapon
-    activatedDamage: 
-      types: 
+    activatedDamage:
+      types:
         Slash: 5
-    activatedSoundOnHit: 
+    activatedSoundOnHit:
       path: /Audio/Weapons/bladeslice.ogg
     animation: WeaponArcThrust
   - type: PointLight
@@ -58,11 +58,11 @@
       damage:
         types:
           Slash: 5
-      activatedSoundOnHit: 
+      activatedSoundOnHit:
         path: /Audio/Weapons/bladeslice.ogg
 
 - type: entity
-  id: SpaceBladeNT 
+  id: SpaceBladeNT
   parent: SpaceBladeSyndicate
   description: Let it corrupt
   components:
