@@ -4,6 +4,12 @@
   components:
   - type: Sprite
     state: starcup
+  - type: EmitSoundOnCollide
+    sound:
+      collection: FootstepBells
+      params:
+        variation: 0.65
+        volume: -5
 
 - type: entity
   id: SpaceBladeSyndicate
