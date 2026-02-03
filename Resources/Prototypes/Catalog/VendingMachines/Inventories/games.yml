@@ -24,7 +24,6 @@
     Basketball: 1
     FoodSnackBoritos: 3
     DrinkSpaceMountainWindCan: 3
-    CardBoxNanotrasen: 1 # imp
     MysterySpaceBladeBox: 2 #NF
   emaggedInventory:
-    CardBoxSyndicate: 1 # imp
+    CardBoxNanotrasen: 1
