@@ -7,8 +7,6 @@ humanoid-profile-editor-cd-records-weight = Weight (kg):
 # TheDen, added Birthday
 humanoid-profile-editor-cd-records-birthday = Birthday:
 humanoid-profile-editor-cd-records-contact-name = Emergency Contact Name(s):
-# TheDen, added Place Of Residency
-humanoid-profile-editor-cd-records-residency = Current Place of Residency:
 
 # Employment
 humanoid-profile-editor-cd-records-employment = Employment
