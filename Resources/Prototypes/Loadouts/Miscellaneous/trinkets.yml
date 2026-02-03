@@ -44,6 +44,12 @@
   groupBy: "plushie" # starcup
 
 - type: loadout
+  id: MysterySpaceBladeBox
+  storage:
+    back: 
+    - MysterySpaceBladeBox
+
+- type: loadout
   id: ThreeCandles
   dummyEntity: LoadoutDummyCandles
   storage:

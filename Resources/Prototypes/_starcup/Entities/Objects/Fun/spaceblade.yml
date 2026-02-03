@@ -45,7 +45,6 @@
         Slash: 5
     activatedSoundOnHit:
       path: /Audio/Weapons/bladeslice.ogg
-    animation: WeaponArcThrust
   - type: PointLight
     enabled: true
     radius: 3
@@ -58,8 +57,6 @@
       damage:
         types:
           Slash: 5
-      activatedSoundOnHit:
-        path: /Audio/Weapons/bladeslice.ogg
 
 - type: entity
   id: SpaceBladeNT
