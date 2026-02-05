@@ -2821,3 +2821,12 @@
   id: 8382
   time: '2026-02-05T10:21:32.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/715
+- author: ShepardToTheStars
+  changes:
+  - message: Harpies are now reliably more sensitive to pollutant gases than other
+      species. For example, 0.4% of CO2 will make harpies start gasping, while humans
+      are okay up to 1.1% CO2
+    type: Fix
+  id: 8383
+  time: '2026-02-05T11:32:23.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/708
