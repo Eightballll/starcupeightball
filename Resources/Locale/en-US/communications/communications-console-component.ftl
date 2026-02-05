@@ -27,6 +27,6 @@ comms-console-announcement-title-station = Communications Console
 comms-console-announcement-title-centcom = Syndicate Communications
 #starcup NT-SC swap
 # comms-console-announcement-title-nukie = Syndicate Nuclear Operative
-coms-console-announcement-title-nukie = Nanotrasen Nuclear Operative
+comms-console-announcement-title-nukie = Nanotrasen Nuclear Operative
 comms-console-announcement-title-station-ai = Station AI
 comms-console-announcement-title-wizard = Wizard
