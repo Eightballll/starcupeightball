@@ -2854,3 +2854,10 @@
   id: 8386
   time: '2026-02-06T02:58:16.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/734
+- author: foxcurl
+  changes:
+  - message: Station maids can nyaow wear a lace headpiece as purrart of their outfit!
+    type: Add
+  id: 8387
+  time: '2026-02-06T06:57:24.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/738
