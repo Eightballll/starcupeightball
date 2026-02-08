@@ -2882,3 +2882,11 @@
   id: 8390
   time: '2026-02-07T03:15:55.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/739
+- author: princesspengy
+  changes:
+  - message: 'new trait: uncloneable, which prevents medical cloning pods from working
+      on your character'
+    type: Add
+  id: 8391
+  time: '2026-02-08T20:53:26.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/741
