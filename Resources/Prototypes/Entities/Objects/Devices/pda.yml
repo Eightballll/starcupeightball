@@ -415,9 +415,11 @@
       whitelist:
         components:
         - Cartridge
-    preinstalled:
-    - CrewManifestCartridge
-    - NewsReaderCartridge
+    # begin starcup: give mimes the standard pda programs
+    #preinstalled:
+    #- CrewManifestCartridge
+    #- NewsReaderCartridge
+    # end starcup
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
