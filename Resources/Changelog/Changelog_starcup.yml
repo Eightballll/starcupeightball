@@ -2924,3 +2924,13 @@
   id: 8395
   time: '2026-02-11T23:27:25.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/749
+- author: princesspengy
+  changes:
+  - message: pills no longer transfer their contents at half the expected rate
+    type: Tweak
+  - message: those with chronic pain should no longer have less effective medicine
+      than before
+    type: Fix
+  id: 8396
+  time: '2026-02-12T00:01:14.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/744
