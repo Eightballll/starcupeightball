@@ -191,6 +191,12 @@
   # end starcup
   - type: Destructible
     thresholds:
+    # begin starcup: reintroduce blunt damage gibbing
+    - trigger:
+        !type:DamageTypeTrigger
+        damageType: Blunt
+        damage: 400
+    # end starcup
     - trigger:
         !type:DamageTypeTrigger
         damageType: Radiation
