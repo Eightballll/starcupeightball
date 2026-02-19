@@ -116,7 +116,7 @@
         - id: ClothingNeckCloakPan
       - id: ToyFigurineSkeleton
       - id: MysteryFigureBox
-      - id: MysterySpaceBladeBox
+      - id: MysterySpaceBladeBox # starcup
       # Cult
       - !type:AllSelector
         children:
