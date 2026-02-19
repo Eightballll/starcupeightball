@@ -1,8 +1,11 @@
 - type: entity
   id: SpaceBladeSC
   parent: SpaceBlade
+  name: "Starcup Blade"
+  description: This blade is widely known as having a Mandela Effect. While nobody seems to recall ever seeing this blade before, it apparently has been around for quite some time.
   components:
   - type: Sprite
+    sprite: _starcup/Objects/Fun/spaceblade.rsi
     state: starcup
   - type: EmitSoundOnCollide
     sound:
@@ -12,12 +15,36 @@
         volume: -5
 
 - type: entity
-  id: SpaceBladeSyndicate
+  id: SpaceBladeDuality
   parent: SpaceBlade
-  description: Let it hiss
+  name: "Duality Blade"
+  description: Featured in SpaceBlades episode 7, this is well known as the blade that Jimmy Spin used to collapse a dying supernova.
+  components: 
+  - type: Sprite
+    sprite: _starcup/Objects/Fun/spaceblade.rsi
+    state: duality
+
+- type: entity
+  id: SpaceBladeCalico
+  parent: SpaceBlade
+  name: "Calico Blade"
+  descripton: This blade was only available for a short time as a promotion for Donk Co's cat cafes. This one is in surprisingly good condition.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Fun/spaceblade.rsi
+    sprite: _starcup/Objects/Fun/spaceblade.rsi
+    state: calico
+  - type: EmitSoundOnCollide
+    sound: 
+      collection: CatMeows
+
+- type: entity
+  id: SpaceBladeSyndicate
+  parent: SpaceBlade
+  name: "Syndicate Blade"
+  description: This SpaceBlade, officially, does not exist. If it did, you would be urged to alert the nearest Syndicomm Agent. But it doesn't, so don't worry about it.
+  components:
+  - type: Sprite
+    sprite: _starcup/Objects/Fun/spaceblade.rsi
     layers:
       - state: syndicate
       - state: syndicateactive
@@ -61,10 +88,11 @@
 - type: entity
   id: SpaceBladeNT
   parent: SpaceBladeSyndicate
-  description: Let it corrupt
+  name: NanoTrasen Blade
+  description: A testament to corporate propoganda, this SpaceBlade is rumored to be a deadly weapon. Probably an exaggerated story from some fool having an ankle too close. 
   components:
   - type: Sprite
-    sprite: _NF/Objects/Fun/spaceblade.rsi
+    sprite: _starcup/Objects/Fun/spaceblade.rsi
     layers:
       - state: nt
       - state: ntactive

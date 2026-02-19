@@ -39,12 +39,12 @@
       - id: SpaceBladeCheck
         orGroup: SB
         prob: 0.20
-      - id: SpaceBladeRune
-        orGroup: SB
-        prob: 0.20
-      - id: SpaceBladeMoff
-        orGroup: SB
-        prob: 0.20
+      #- id: SpaceBladeRune
+      #  orGroup: SB
+      #  prob: 0.20
+      #- id: SpaceBladeMoff
+      #  orGroup: SB
+      #  prob: 0.20
       - id: SpaceBladePizza
         orGroup: SB
         prob: 0.20
@@ -61,6 +61,15 @@
         orGroup: SB
         prob: 0.10
       #starcup
+      - id: SpaceBladeContra
+        orGroup: SB 
+        prob: 0.10
       - id: SpaceBladeSC 
+        orGroup: SB 
+        prob: 0.20
+      - id: SpaceBladeCalico
+        orGroup: SB 
+        prob: 0.20
+      - id: SpaceBladeDuality
         orGroup: SB 
         prob: 0.20
