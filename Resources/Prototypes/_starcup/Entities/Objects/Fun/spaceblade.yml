@@ -19,7 +19,7 @@
   parent: SpaceBlade
   name: "Duality Blade"
   description: Featured in SpaceBlades episode 7, this is well known as the blade that Jimmy Spin used to collapse a dying supernova.
-  components: 
+  components:
   - type: Sprite
     sprite: _starcup/Objects/Fun/spaceblade.rsi
     state: duality
@@ -34,7 +34,7 @@
     sprite: _starcup/Objects/Fun/spaceblade.rsi
     state: calico
   - type: EmitSoundOnCollide
-    sound: 
+    sound:
       collection: CatMeows
 
 - type: entity
@@ -89,7 +89,7 @@
   id: SpaceBladeNT
   parent: SpaceBladeSyndicate
   name: NanoTrasen Blade
-  description: A testament to corporate propoganda, this SpaceBlade is rumored to be a deadly weapon. Probably an exaggerated story from some fool having an ankle too close. 
+  description: A testament to corporate propoganda, this SpaceBlade is rumored to be a deadly weapon. Probably an exaggerated story from some fool having an ankle too close.
   components:
   - type: Sprite
     sprite: _starcup/Objects/Fun/spaceblade.rsi
