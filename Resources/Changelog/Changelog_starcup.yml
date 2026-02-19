@@ -3012,3 +3012,13 @@
   id: 8405
   time: '2026-02-19T11:34:27.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/762
+- author: Psymbiote
+  changes:
+  - message: Made creature autoemotes be much rarer. The animals said their piece
+      and are ready to chill.
+    type: Tweak
+  - message: Borgs may honk once more. Praise the Borgmother!
+    type: Fix
+  id: 8406
+  time: '2026-02-19T23:51:06.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/771
