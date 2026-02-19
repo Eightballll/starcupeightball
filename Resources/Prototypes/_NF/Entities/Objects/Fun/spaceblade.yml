@@ -12,7 +12,7 @@
     air:
       volume: 1
       moles:
-         - 0.4101137219 # oxygen
+         Oxygen: 0.4101137219
       temperature: 293.15
   - type: Physics
     bodyType: Dynamic
