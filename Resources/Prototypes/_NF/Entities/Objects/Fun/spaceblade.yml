@@ -267,7 +267,7 @@
   id: SpaceBladeClown
   parent: SpaceBlade
   name: Honk Blade #starcup
-  description: "Released on April Fools day with the simple advertisement: 'Slippery when wet'." #starcup
+  description: "Released on April Fools day with the simple advertisement: \"Slippery when wet.\"" #starcup
   components:
   - type: Sprite
     state: clown
