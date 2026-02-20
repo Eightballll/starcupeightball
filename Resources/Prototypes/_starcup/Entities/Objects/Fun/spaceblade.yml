@@ -28,7 +28,7 @@
   id: SpaceBladeCalico
   parent: SpaceBlade
   name: "Calico Blade"
-  descripton: This blade was only available for a short time as a promotion for Donk Co's cat cafes. This one is in surprisingly good condition.
+  description: "This blade was only available for a short time as a promotion for Donk Co's cat cafes. This one is in surprisingly good condition."
   components:
   - type: Sprite
     sprite: _starcup/Objects/Fun/spaceblade.rsi
@@ -41,7 +41,7 @@
   id: SpaceBladeSyndicate
   parent: [SpaceBlade, BaseTraitorContraband]
   name: "Syndicate Blade"
-  description: This SpaceBlade, officially, does not exist. If it did, you would be urged to alert the nearest SyndiComm Agent. But it doesn't, so don't worry about it.
+  description: "This SpaceBlade, officially, does not exist. If it did, you would be urged to alert the nearest SyndiComm Agent. But it doesn't, so don't worry about it."
   components:
   - type: Sprite
     sprite: _starcup/Objects/Fun/spaceblade.rsi
