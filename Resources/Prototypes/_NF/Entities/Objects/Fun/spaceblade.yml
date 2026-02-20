@@ -57,7 +57,7 @@
   id: SpaceBladeBlue
   parent: SpaceBlade
   name: Blue Blade #starcup
-  description: On episode 1 of SpaceBlades, Jimmy Spin is quoted saying "Wow, I hope mine is green!", before immediately receieving this. #starcup
+  description: On episode 1 of SpaceBlades, Jimmy Spin is quoted saying "Wow, I hope mine is green!" before immediately receieving this. #starcup
   components:
   - type: Sprite
     state: blue
