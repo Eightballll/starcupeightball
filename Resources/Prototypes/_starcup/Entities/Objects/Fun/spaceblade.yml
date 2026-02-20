@@ -18,7 +18,7 @@
   id: SpaceBladeDuality
   parent: SpaceBlade
   name: "Duality Blade"
-  description: Featured in SpaceBlades episode 7, this is well known as the blade that Jimmy Spin used to collapse a dying supernova.
+  description: Featured in SpaceBlades episode 7, this is well known as the Blade that Jimmy Spin used to collapse a dying supernova.
   components:
   - type: Sprite
     sprite: _starcup/Objects/Fun/spaceblade.rsi
@@ -28,7 +28,7 @@
   id: SpaceBladeCalico
   parent: SpaceBlade
   name: "Calico Blade"
-  description: "This blade was only available for a short time as a promotion for Donk Co's cat cafes. This one is in surprisingly good condition."
+  description: "This Blade was only available for a short time as a promotion for Donk Co's cat cafes. This one is in surprisingly good condition."
   components:
   - type: Sprite
     sprite: _starcup/Objects/Fun/spaceblade.rsi

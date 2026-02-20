@@ -51,13 +51,13 @@
   id: SpaceBladeRedOrange
   parent: SpaceBlade
   name: "RedOrange Blade" #Starcup
-  description: Officially titled 'FireBlade', this blade was dubbed 'RedOrange' by the community, as quote "FireBlade sounds stupid, and people kept arguing about whether it was red or orange." #Starcup
+  description: Officially titled 'FireBlade', this Blade was dubbed 'RedOrange' by the community, as quote "FireBlade sounds stupid, and people kept arguing about whether it was red or orange." #Starcup
 
 - type: entity
   id: SpaceBladeBlue
   parent: SpaceBlade
   name: Blue Blade #starcup
-  description: On episode 1 of SpaceBlades, Jimmy Spin is quoted saying "wow, I hope mine is gonna be green!", before immediately receieving this. #starcup
+  description: On episode 1 of SpaceBlades, Jimmy Spin is quoted saying "Wow, I hope mine is green!", before immediately receieving this. #starcup
   components:
   - type: Sprite
     state: blue
@@ -66,7 +66,7 @@
   id: SpaceBladeFrontier
   parent: SpaceBlade
   name: Frontier Blade #starcup
-  description: An advertisement in and of itself. The logo of the Sector where SpaceBlades originated. On the side reads an inscription, "Buy more blades!" #starcup
+  description: An advertisement in and of itself. The logo of the Sector where SpaceBlades originated. On the side reads an inscription, "Let it drip!" #starcup
   components:
   - type: Sprite
     state: frontier
@@ -75,7 +75,7 @@
   id: SpaceBladeGoldBlue
   parent: SpaceBlade
   name: GoldBlue Blade #starcup
-  description: A fancy version of the Blue Blade, in an attempt to resell unused stock. While it worked extremely well, the build quality is unfortunately questionable, and intact GoldBlue's are uncommon. #starcup
+  description: A fancy version of the Blue Blade, in an attempt to resell unused stock. While it worked extremely well, the build quality was unfortunately questionable, and intact GoldBlue's are uncommon. #starcup
   components:
   - type: Sprite
     state: goldblue
@@ -84,7 +84,7 @@
   id: SpaceBladeMail
   parent: SpaceBlade
   name: Mail Blade #starcup
-  description: These Blades were a company gift from Hawkmoon Acquisitions to it's couriers, as a reward for exceeding qutoas. Unfortunately, a warehouse full of these was discovered, and their value vanished overnight. #starcup
+  description: These Blades were a company gift from Hawkmoon Acquisitions to its couriers, as a reward for exceeding qutoas. Unfortunately, a warehouse full of these was discovered, and their value vanished overnight. #starcup
   components:
   - type: Sprite
     state: mail
@@ -93,7 +93,7 @@
   id: SpaceBladeEyeball
   parent: SpaceBlade
   name: Eyeball Blade #starcup
-  description: Originally a Halloween exclusive, these blades were so popular that they became a year-round product. #starcup
+  description: Originally a Halloween exclusive, these Blades were so popular that they became a year-round product. #starcup
   components:
   - type: Sprite
     state: eyeball
@@ -102,7 +102,7 @@
   id: SpaceBladeBlade
   parent: SpaceBlade
   name: Blade Blade #starcup
-  description: "'It's got blades on it's blades!' - SpaceBlade commerical, Circa 2476" #starcup
+  description: "'It's got blades on its blades!' - SpaceBlade commerical, Circa 2476" #starcup
   components:
   - type: Sprite
     state: blade
@@ -111,7 +111,7 @@
   id: SpaceBladeCheck
   parent: SpaceBlade
   name: Check Blade #starcup
-  description: The first blade to be exclusively available through blindboxes. #starcup
+  description: The first Blade to be exclusively available through blindboxes. #starcup
   components:
   - type: Sprite
     state: check
@@ -147,7 +147,7 @@
   id: SpaceBladeSec
   parent: SpaceBlade
   name: Security Blade #starcup
-  description: When the company's owner was wrongfully arrested due to similar namesake, he made this blade out of pure spite. #starcup
+  description: When the company's owner was wrongfully arrested due to similar namesake, he made this Blade out of pure spite. #starcup
   components:
   - type: Sprite
     state: secblade
@@ -160,7 +160,7 @@
   id: SpaceBladeContra
   parent: SpaceBlade
   name: Contra Blade #starcup
-  description: SpaceBlade's attempts to appeal to it's aging audience, this one has fully metal blades, and an 'illegal' asthetic (themed after the Spinward Syndicate). On the side reads an engraving, "Let it reap" #starcup
+  description: SpaceBlade's attempts to appeal to its aging audience, this one is fully made of metal, with an 'illegal' aesthetic (themed after the Spinward Syndicate). On the side reads an engraving, "Let it reap". #starcup
   components:
   - type: Sprite
     state: contraband
@@ -179,7 +179,7 @@
   id: SpaceBladeMoff
   parent: SpaceBlade
   name: Moff Blade #starcup
-  description: The result of a crossover episode between SpaceBlade and Safety Moth, in an attempt to increase employee retention. It didn't work, but this is still a cute blade. #starcup
+  description: The result of a crossover episode between SpaceBlades and Safety Moth, in an attempt to increase employee retention. It didn't work, but this is still a cute blade. #starcup
   components:
   - type: Sprite
     state: moff
@@ -199,7 +199,7 @@
   id: SpaceBladeWeh
   parent: SpaceBlade
   name: Weh Blade #starcup
-  description: Originally a fanmade blade, the concept was 'accidentally' used by SpaceBlade in episode 21 of the show. After community backlash, they agreed to settle it privately with the original creator, though nobody has heard from them since. #starcup
+  description: Originally a fan-made Blade, the concept was 'accidentally' used in SpaceBlades, episode 21. After community backlash, they agreed to settle it privately with the original creator, though nobody has heard from them since. #starcup
   components:
   - type: Sprite
     state: weh
@@ -219,7 +219,7 @@
   id: SpaceBladeTesla
   parent: SpaceBlade
   name: TeslaBlade #starcup
-  description: The first 'Godhood' blade introduced in the show, prophecy states that whoever wields this blade wields the key to the universe. Whatever that means... #starcup
+  description: The first 'Godhood' Blade introduced in the show, prophecy states that whoever wields this blade wields the key to the universe. Whatever that means... #starcup
   components:
   - type: Sprite
     state: tesla
@@ -251,7 +251,7 @@
   id: SpaceBladeSingularity
   parent: SpaceBlade
   name: Singularity Blade #starcup
-  description: The second 'Godhood' blade, this one is destined to consume all of reality. It was revealed in the season finale of SpaceBlades, as a cliffholder for season 2. #starcup
+  description: The second 'Godhood' Blade, this one is destined to consume all of reality. It was revealed in the season finale of SpaceBlades, as a cliffholder for season 2. #starcup
   components:
   - type: Sprite
     state: singularity
