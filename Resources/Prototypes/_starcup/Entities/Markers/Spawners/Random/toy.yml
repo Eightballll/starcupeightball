@@ -1,10 +1,10 @@
 #Spaceblades (except the NT and Syndicate ones)
-- type: entityTable 
+- type: entityTable
   id: AllSpacebladesTable
   table: !type:GroupSelector
     children:
     - !type:GroupSelector #Common spaceblades
-      children: 
+      children:
       - id: SpaceBladeRedOrange
       - id: SpaceBladeBlue
       - id: SpaceBladeGoldBlue
@@ -26,7 +26,7 @@
       - id: SpaceBladeFrontier
     - !type:GroupSelector #Rare spaceblades
       prob: 0.1
-      children: 
+      children:
       - id: SpaceBladeTesla
       - id: SpaceBladeSingularity
       - id: SpaceBladeContra
