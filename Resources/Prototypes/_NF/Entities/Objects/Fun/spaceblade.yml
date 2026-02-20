@@ -75,7 +75,7 @@
   id: SpaceBladeGoldBlue
   parent: SpaceBlade
   name: GoldBlue Blade #starcup
-  description: A fancy version of the Blue Blade, in an attempt to resell unused stock. While it worked extremely well, the build quality was unfortunately questionable, and intact GoldBlue's are uncommon. #starcup
+  description: A fancy version of the Blue Blade, released in an attempt to resell unused stock. While it worked extremely well, the build quality was unfortunately questionable, and intact GoldBlues are uncommon. #starcup
   components:
   - type: Sprite
     state: goldblue
