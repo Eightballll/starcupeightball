@@ -251,7 +251,7 @@
   id: SpaceBladeSingularity
   parent: SpaceBlade
   name: Singularity Blade #starcup
-  description: The second 'Godhood' Blade, this one is destined to consume all of reality. It was revealed in the season finale of SpaceBlades, as a cliffholder for season 2. #starcup
+  description: The second 'Godhood' Blade, this one is destined to consume all of reality. It was revealed in the season finale of SpaceBlades, as a cliffhanger for season 2. #starcup
   components:
   - type: Sprite
     state: singularity
