@@ -102,7 +102,7 @@
   id: SpaceBladeBlade
   parent: SpaceBlade
   name: Blade Blade #starcup
-  description: "'It's got blades on its blades!' - SpaceBlade commerical, Circa 2476" #starcup
+  description: "\"It's got blades on its blades!\" - SpaceBlade commerical" #starcup
   components:
   - type: Sprite
     state: blade
