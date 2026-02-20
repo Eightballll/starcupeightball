@@ -3042,3 +3042,22 @@
   id: 8408
   time: '2026-02-20T02:47:42.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/751
+- author: shirigaruonna
+  changes:
+  - message: Due to a new distribution deal, SyndComm is now able to supply the crew
+      with a new brand of cigarette!
+    type: Add
+  - message: Due to a catastrophic inventory error, ShadyCigs vending machines now
+      carry a new candy.
+    type: Add
+  id: 8409
+  time: '2026-02-20T06:58:25.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/761
+- author: princesspengy
+  changes:
+  - message: greatly increased the amount of time it takes for holopad calls to time
+      out from inactivity
+    type: Tweak
+  id: 8410
+  time: '2026-02-20T06:57:39.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/764
