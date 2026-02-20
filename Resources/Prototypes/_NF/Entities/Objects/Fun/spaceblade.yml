@@ -151,8 +151,6 @@
   components:
   - type: Sprite
     state: secblade
-  - type: StaminaDamageOnCollide
-    damage: 8
   - type: DisarmMalus
     malus: 0.225
 
