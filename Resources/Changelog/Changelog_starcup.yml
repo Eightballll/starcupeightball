@@ -3061,3 +3061,12 @@
   id: 8410
   time: '2026-02-20T06:57:39.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/764
+- author: Psymbiote
+  changes:
+  - message: New space pike to compete against carp for prey and territory. Salvagers
+      may find these rare new enemies, or the bloody remains of their fight against
+      carp...
+    type: Add
+  id: 8411
+  time: '2026-02-20T07:06:33.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/773
