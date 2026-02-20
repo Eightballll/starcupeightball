@@ -20,10 +20,9 @@
     BookSparotBook: 1 # starcup
     BooksBag: 3
     Magic9Ball: 2
+    MysterySpaceBladeBox: 2 #starcup
   contrabandInventory:
     Basketball: 1
     FoodSnackBoritos: 3
     DrinkSpaceMountainWindCan: 3
-    MysterySpaceBladeBox: 2 #NF
-  emaggedInventory:
-    CardBoxNanotrasen: 1
+    CardBoxSyndicate: 1 #starcup

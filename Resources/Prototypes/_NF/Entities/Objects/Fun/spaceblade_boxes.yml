@@ -19,57 +19,10 @@
       - state: sb_box
   - type: StaticPrice
     price: 160
-  - type: SpawnItemsOnUse
-    items:
+  - type: SpawnEntityTableOnTrigger
+    useMapCoords: true
+    table: !type:AllSelector
+      children:
       - id: SpaceBladeBoxTrash
-      - id: SpaceBladeRedOrange
-        orGroup: SB
-      - id: SpaceBladeBlue
-        orGroup: SB
-      - id: SpaceBladeFrontier
-        orGroup: SB
-      - id: SpaceBladeGoldBlue
-        orGroup: SB
-      - id: SpaceBladeMail
-        orGroup: SB
-      - id: SpaceBladeEyeball
-        orGroup: SB
-      - id: SpaceBladeBlade
-        orGroup: SB
-      - id: SpaceBladeCheck
-        orGroup: SB
-        prob: 0.20
-      #- id: SpaceBladeRune
-      #  orGroup: SB
-      #  prob: 0.20
-      #- id: SpaceBladeMoff
-      #  orGroup: SB
-      #  prob: 0.20
-      - id: SpaceBladePizza
-        orGroup: SB
-        prob: 0.20
-      - id: SpaceBladeWeh
-        orGroup: SB
-        prob: 0.20
-      - id: SpaceBladeClown
-        orGroup: SB
-        prob: 0.10
-      - id: SpaceBladeTesla
-        orGroup: SB
-        prob: 0.10
-      - id: SpaceBladeSingularity
-        orGroup: SB
-        prob: 0.10
-      #starcup
-      - id: SpaceBladeContra
-        orGroup: SB 
-        prob: 0.10
-      - id: SpaceBladeSC 
-        orGroup: SB 
-        prob: 0.20
-      - id: SpaceBladeCalico
-        orGroup: SB 
-        prob: 0.20
-      - id: SpaceBladeDuality
-        orGroup: SB 
-        prob: 0.20
+      - !type:NestedSelector
+        tableId: AllSpacebladesTable

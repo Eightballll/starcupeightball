@@ -1,7 +1,7 @@
 - type: entity
   id: SpaceBlade
-  parent: AirTank
-  name: space blade
+  parent: GasTankBase
+  name: SpaceBlade
   description: Let it drip
   abstract: true
   components:
