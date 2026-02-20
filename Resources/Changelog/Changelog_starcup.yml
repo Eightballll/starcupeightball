@@ -3029,3 +3029,16 @@
   id: 8407
   time: '2026-02-20T02:24:31.0000000+00:00'
   url: https://github.com/teamstarcup/starcup/pull/763
+- author: foxcurl
+  changes:
+  - message: A spare Particle Decelerator may now be found in the vault fridge.
+    type: Tweak
+  - message: The Particle Decelerator now Decelerates more Particles, making it four
+      times more powerful.
+    type: Tweak
+  - message: Singularities and Teslas move slower, and the Tesla does not teleport
+      as far.
+    type: Tweak
+  id: 8408
+  time: '2026-02-20T02:47:42.0000000+00:00'
+  url: https://github.com/teamstarcup/starcup/pull/751
