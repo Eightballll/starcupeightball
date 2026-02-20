@@ -51,7 +51,7 @@
   id: SpaceBladeRedOrange
   parent: SpaceBlade
   name: RedOrange Blade #Starcup
-  description: Officially titled 'FireBlade', this Blade was dubbed 'RedOrange' by the community, as quote "FireBlade sounds stupid, and people kept arguing about whether it was red or orange." #Starcup
+  description: "Officially titled \"FireBlade\", this Blade was dubbed \"RedOrange\" by the community. The content creator who popularized the term explained during an interview: \"FireBlade sounds stupid, and people kept arguing about whether it was red or orange.\"" #Starcup
 
 - type: entity
   id: SpaceBladeBlue
