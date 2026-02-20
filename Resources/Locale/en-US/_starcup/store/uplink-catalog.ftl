@@ -101,4 +101,4 @@ uplink-ntmov-law-name = NT Law Circuit
 uplink-ntmov-law-desc = A subversive Lawset to use when you want to turn the A.I. to your side, use as much as possible.
 
 uplink-spaceblade-nanotrasen-name = NanoTrasen SpaceBlade
-uplink-spaceblade-nanotrasen-desc = Made from real metal!
+uplink-spaceblade-nanotrasen-desc = A silly toy with a hidden blade. It can do some serious damage to your enemies' ankles.

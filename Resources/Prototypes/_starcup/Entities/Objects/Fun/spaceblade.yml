@@ -88,7 +88,7 @@
 - type: entity
   id: SpaceBladeNT
   parent: SpaceBladeSyndicate
-  name: NanoTrasen Blade
+  name: Nano Blade
   description: A testament to corporate propoganda, this SpaceBlade is rumored to be a deadly weapon. Probably an exaggerated story from some fool having an ankle too close.
   components:
   - type: Sprite

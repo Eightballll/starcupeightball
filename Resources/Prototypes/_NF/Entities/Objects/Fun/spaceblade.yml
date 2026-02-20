@@ -240,7 +240,7 @@
 
 - type: entity
   id: SpaceBladePizza
-  parent: [SpaceBlade, PlasticBanana]
+  parent: [SpaceBlade]
   name: Pizza Blade #starcup
   description: This one comes with a scratch-and-sniff...it smells like cardboard. Great. #starcup
   components:
