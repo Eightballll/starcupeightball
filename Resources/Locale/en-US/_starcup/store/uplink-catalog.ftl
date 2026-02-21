@@ -105,4 +105,4 @@ uplink-spaceblade-nanotrasen-desc = A silly toy with a hidden blade. It can do s
 
 #Syndicate uplink locs
 uplink-spaceblade-syndicate-name = Syndicate Brand SpaceBlade
-uplink-spaceblade-syndicate-desc = This Blade does not officially exist, according to SyndiComm.
+uplink-spaceblade-syndicate-desc = This Blade does not officially exist, according to SyndComm.

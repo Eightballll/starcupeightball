@@ -50,14 +50,14 @@
 - type: entity
   id: SpaceBladeRedOrange
   parent: SpaceBlade
-  name: "RedOrange Blade" #Starcup
-  description: Officially titled 'FireBlade', this Blade was dubbed 'RedOrange' by the community, as quote "FireBlade sounds stupid, and people kept arguing about whether it was red or orange." #Starcup
+  name: RedOrange Blade #Starcup
+  description: "Officially titled \"FireBlade\", this Blade was dubbed \"RedOrange\" by the community. The content creator who popularized the term explained during an interview: \"FireBlade sounds stupid, and people kept arguing about whether it was red or orange.\"" #Starcup
 
 - type: entity
   id: SpaceBladeBlue
   parent: SpaceBlade
   name: Blue Blade #starcup
-  description: On episode 1 of SpaceBlades, Jimmy Spin is quoted saying "Wow, I hope mine is green!", before immediately receieving this. #starcup
+  description: On episode 1 of SpaceBlades, Jimmy Spin is quoted saying "Wow, I hope mine is green!" before immediately receieving this. #starcup
   components:
   - type: Sprite
     state: blue
@@ -66,7 +66,7 @@
   id: SpaceBladeFrontier
   parent: SpaceBlade
   name: Frontier Blade #starcup
-  description: An advertisement in and of itself. The logo of the Sector where SpaceBlades originated. On the side reads an inscription, "Let it drip!" #starcup
+  description: An advertisement in and of itself, bearing the logo of the Sector where SpaceBlades originated. On the side reads an inscription, "Let it drip!" #starcup
   components:
   - type: Sprite
     state: frontier
@@ -75,7 +75,7 @@
   id: SpaceBladeGoldBlue
   parent: SpaceBlade
   name: GoldBlue Blade #starcup
-  description: A fancy version of the Blue Blade, in an attempt to resell unused stock. While it worked extremely well, the build quality was unfortunately questionable, and intact GoldBlue's are uncommon. #starcup
+  description: A fancy version of the Blue Blade, released in an attempt to resell unused stock. While it worked extremely well, the build quality was unfortunately questionable, and intact GoldBlues are uncommon. #starcup
   components:
   - type: Sprite
     state: goldblue
@@ -102,7 +102,7 @@
   id: SpaceBladeBlade
   parent: SpaceBlade
   name: Blade Blade #starcup
-  description: "'It's got blades on its blades!' - SpaceBlade commerical, Circa 2476" #starcup
+  description: "\"It's got blades on its blades!\" - SpaceBlade commerical" #starcup
   components:
   - type: Sprite
     state: blade
@@ -151,8 +151,6 @@
   components:
   - type: Sprite
     state: secblade
-  - type: StaminaDamageOnCollide
-    damage: 8
   - type: DisarmMalus
     malus: 0.225
 
@@ -160,7 +158,7 @@
   id: SpaceBladeContra
   parent: SpaceBlade
   name: Contra Blade #starcup
-  description: SpaceBlade's attempts to appeal to its aging audience, this one is fully made of metal, with an 'illegal' aesthetic (themed after the Spinward Syndicate). On the side reads an engraving, "Let it reap". #starcup
+  description: SpaceBlade's attempts to appeal to its aging audience, this one is the result of a crossover with the controversial Gorlex Marauders tv show. While its somewhat political source raises eyebrows,this Blade is popular for being the only official Blade that is fully cast in metal. On the side reads an engraving, "Let it reap". #starcup
   components:
   - type: Sprite
     state: contraband
@@ -251,7 +249,7 @@
   id: SpaceBladeSingularity
   parent: SpaceBlade
   name: Singularity Blade #starcup
-  description: The second 'Godhood' Blade, this one is destined to consume all of reality. It was revealed in the season finale of SpaceBlades, as a cliffholder for season 2. #starcup
+  description: The second 'Godhood' Blade, this one is destined to consume all of reality. It was revealed in the season finale of SpaceBlades, as a cliffhanger for season 2. #starcup
   components:
   - type: Sprite
     state: singularity
@@ -267,7 +265,7 @@
   id: SpaceBladeClown
   parent: SpaceBlade
   name: Honk Blade #starcup
-  description: "Released on April Fools day with the simple advertisement: 'Slippery when wet'." #starcup
+  description: "Released on April Fools day with the simple advertisement: \"Slippery when wet.\"" #starcup
   components:
   - type: Sprite
     state: clown
