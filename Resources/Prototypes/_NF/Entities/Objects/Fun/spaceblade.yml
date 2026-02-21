@@ -57,7 +57,7 @@
   id: SpaceBladeBlue
   parent: SpaceBlade
   name: Blue Blade #starcup
-  description: On episode 1 of SpaceBlades, Jimmy Spin is quoted saying "Wow, I hope mine is green!" before immediately receieving this. #starcup
+  description: On episode 1 of SpaceBlade, Jimmy Spin is quoted saying "Wow, I hope mine is green!" before immediately receieving this. #starcup
   components:
   - type: Sprite
     state: blue
@@ -147,7 +147,7 @@
   id: SpaceBladeSec
   parent: SpaceBlade
   name: Security Blade #starcup
-  description: When the company's owner was wrongfully arrested due to similar namesake, he made this Blade out of pure spite. #starcup
+  description: When the owner of the SpaceBlade franchise was wrongfully arrested after claims of copyright infringement, he made this Blade out of pure spite. #starcup
   components:
   - type: Sprite
     state: secblade
@@ -158,7 +158,7 @@
   id: SpaceBladeContra
   parent: SpaceBlade
   name: Contra Blade #starcup
-  description: SpaceBlade's attempts to appeal to its aging audience, this one is the result of a crossover with the controversial Gorlex Marauders tv show. While its somewhat political source raises eyebrows,this Blade is popular for being the only official Blade that is fully cast in metal. On the side reads an engraving, "Let it reap". #starcup
+  description: SpaceBlade's attempt to appeal to its aging audience, this one is the result of a crossover with the controversial Nukies cartoon show. While its somewhat political source raises eyebrows, this Blade is popular for being the only official Blade that is fully cast in metal. On the side reads an engraving, "Let it reap". #starcup
   components:
   - type: Sprite
     state: contraband
@@ -177,7 +177,7 @@
   id: SpaceBladeMoff
   parent: SpaceBlade
   name: Moff Blade #starcup
-  description: The result of a crossover episode between SpaceBlades and Safety Moth, in an attempt to increase employee retention. It didn't work, but this is still a cute blade. #starcup
+  description: The result of a crossover episode between SpaceBlade and Safety Moth, in an attempt to increase employee retention. It didn't work, but this is still a cute blade. #starcup
   components:
   - type: Sprite
     state: moff
@@ -197,7 +197,7 @@
   id: SpaceBladeWeh
   parent: SpaceBlade
   name: Weh Blade #starcup
-  description: Originally a fan-made Blade, the concept was 'accidentally' used in SpaceBlades, episode 21. After community backlash, they agreed to settle it privately with the original creator, though nobody has heard from them since. #starcup
+  description: Originally a fan-made Blade, the concept was 'accidentally' used in SpaceBlade, episode 21. After community backlash, they agreed to settle it privately with the original creator, though nobody has heard from them since. #starcup
   components:
   - type: Sprite
     state: weh
@@ -249,7 +249,7 @@
   id: SpaceBladeSingularity
   parent: SpaceBlade
   name: Singularity Blade #starcup
-  description: The second 'Godhood' Blade, this one is destined to consume all of reality. It was revealed in the season finale of SpaceBlades, as a cliffhanger for season 2. #starcup
+  description: The second 'Godhood' Blade, this one is destined to consume all of reality. It was revealed in the season finale of SpaceBlade, as a cliffhanger for season 2. #starcup
   components:
   - type: Sprite
     state: singularity
