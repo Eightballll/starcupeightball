@@ -51,13 +51,13 @@
   id: SpaceBladeRedOrange
   parent: SpaceBlade
   name: RedOrange Blade #Starcup
-  description: "Officially titled \"FireBlade\", this Blade was dubbed \"RedOrange\" by the community. The content creator who popularized the term explained during an interview: \"FireBlade sounds stupid, and people kept arguing about whether it was red or orange.\"" #Starcup
+  description: "Officially titled \"Fire Blade\", this Blade was dubbed \"RedOrange\" by the community. The content creator who popularized the term explained during an interview: \"FireBlade sounds stupid, and people kept arguing about whether it was red or orange.\"" #Starcup
 
 - type: entity
   id: SpaceBladeBlue
   parent: SpaceBlade
   name: Blue Blade #starcup
-  description: On episode 1 of SpaceBlade, Jimmy Spin is quoted saying "Wow, I hope mine is green!" before immediately receieving this. #starcup
+  description: "On episode 1 of SpaceBlade, Jimmy Spin is quoted saying \"Wow, I hope mine is green!\" before immediately receieving this." #starcup
   components:
   - type: Sprite
     state: blue
@@ -66,7 +66,7 @@
   id: SpaceBladeFrontier
   parent: SpaceBlade
   name: Frontier Blade #starcup
-  description: An advertisement in and of itself, bearing the logo of the Sector where SpaceBlades originated. On the side reads an inscription, "Let it drip!" #starcup
+  description: "An advertisement in and of itself, bearing the logo of the Sector where SpaceBlades originated. On the side reads an inscription, \"Let it drip!\"" #starcup
   components:
   - type: Sprite
     state: frontier
@@ -151,14 +151,12 @@
   components:
   - type: Sprite
     state: secblade
-  - type: DisarmMalus
-    malus: 0.225
 
 - type: entity
   id: SpaceBladeContra
   parent: SpaceBlade
   name: Contra Blade #starcup
-  description: SpaceBlade's attempt to appeal to its aging audience, this one is the result of a crossover with the controversial Nukies cartoon show. While its somewhat political source raises eyebrows, this Blade is popular for being the only official Blade that is fully cast in metal. On the side reads an engraving, "Let it reap". #starcup
+  description: "SpaceBlade's attempt to appeal to its aging audience, this one is the result of a crossover with the controversial Nukies cartoon show. While its somewhat political source raises eyebrows, this Blade is popular for being the only official Blade that is fully cast in metal. On the side reads an engraving, \"Let it reap!\"" #starcup
   components:
   - type: Sprite
     state: contraband

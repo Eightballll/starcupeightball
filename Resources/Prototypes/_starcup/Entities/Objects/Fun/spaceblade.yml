@@ -1,8 +1,8 @@
 - type: entity
   id: SpaceBladeSC
   parent: SpaceBlade
-  name: "Starcup Blade"
-  description: This blade is widely known as having a Mandela Effect. While nobody seems to recall ever seeing this blade before, it apparently has been around for quite some time.
+  name: Starcup Blade
+  description: Despite having been around for quite some time, the origin of this Blade is unknown.
   components:
   - type: Sprite
     sprite: _starcup/Objects/Fun/spaceblade.rsi
@@ -17,7 +17,7 @@
 - type: entity
   id: SpaceBladeDuality
   parent: SpaceBlade
-  name: "Duality Blade"
+  name: Duality Blade
   description: Featured in SpaceBlades episode 7, this is well known as the Blade that Jimmy Spin used to collapse a dying supernova.
   components:
   - type: Sprite
@@ -27,8 +27,8 @@
 - type: entity
   id: SpaceBladeCalico
   parent: SpaceBlade
-  name: "Calico Blade"
-  description: "This Blade was only available for a short time as a promotion for Donk Co's cat cafes. This one is in surprisingly good condition."
+  name: Calico Blade
+  description: This Blade was only available for a short time as a promotion for Donk Co's cat cafes. This one is in surprisingly good condition.
   components:
   - type: Sprite
     sprite: _starcup/Objects/Fun/spaceblade.rsi
@@ -39,9 +39,9 @@
 
 - type: entity
   id: SpaceBladeSyndicate
-  parent: [SpaceBlade, BaseTraitorContraband]
-  name: "Syndicate Blade"
-  description: "This SpaceBlade, officially, does not exist. If it did, you would be urged to alert the nearest SyndiComm Agent. But it doesn't, so don't worry about it."
+  parent: [SpaceBlade, BaseSyndicateContraband]
+  name: Syndicate Blade
+  description: This SpaceBlade, officially, does not exist. If it did, you would be urged to alert the nearest SyndComm Agent. But it doesn't, so don't worry about it.
   components:
   - type: Sprite
     sprite: _starcup/Objects/Fun/spaceblade.rsi
@@ -87,7 +87,7 @@
 
 - type: entity
   id: SpaceBladeNT
-  parent: SpaceBladeSyndicate
+  parent: [BaseNanotrasenContraband, SpaceBladeSyndicate]
   name: Nano Blade
   description: A testament to corporate propoganda, this SpaceBlade is rumored to be a deadly weapon. Probably an exaggerated story from some fool having an ankle too close.
   components:
